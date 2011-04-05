@@ -1,12 +1,10 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (3.0.5)
     nokogiri (1.4.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport
   nokogiri

@@ -9,6 +9,6 @@ class StandardTest < Test::Unit::TestCase
 private
   
   def math_standard
-    @math_standard ||= File.expand_path()
+    @math_standard ||= File.expand_path('../data/')
   end
 end
