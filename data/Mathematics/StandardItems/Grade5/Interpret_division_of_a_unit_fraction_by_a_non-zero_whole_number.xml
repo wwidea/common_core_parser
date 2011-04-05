@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="72EE7E2244EB4917830C3C74E578BC9B" xml:lang="en">
+	<StandardSettingBody>
+		<Country>US</Country>
+		<SettingBodyName>NGA and CCSSO</SettingBodyName>
+	</StandardSettingBody>
+	<StandardHierarchyLevel>
+		<Number>3</Number>
+		<Description>Standard Item</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>A3438B4B76D84CFAACFEC12451651BEE</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.5.NF.7.a</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>
+			Interpret division of a unit fraction by a non-zero whole number, and compute such quotients. For example, create a story context for (1/3) ÷ 4, and use a visual fraction model to show the quotient. Use the relationship between multiplication and division to explain that (1/3) ÷ 4 = 1/12 because (1/12) x 4 = 1/3.
+		</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>
+			<Code>05</Code>
+		</GradeLevel>
+	</GradeLevels>
+	<SubjectArea>
+		<Code>52</Code>
+		<OtherCodeList>
+			<OtherCode Codeset="Text">Mathematics</OtherCode>
+		</OtherCodeList>
+	</SubjectArea>
+	<StandardIdentifier>
+		<YearCreated>2010</YearCreated>
+		<SubjectArea>
+			<Code>02</Code>
+			<OtherCodeList>
+				<OtherCode Codeset="Text">Mathematics</OtherCode>
+			</OtherCodeList>
+		</SubjectArea>
+		<StandardNumber>01</StandardNumber>
+		<GradeLevels>
+			<GradeLevel>
+				<Code>KG</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>01</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>02</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>03</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>04</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>05</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>06</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>07</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>08</Code>
+			</GradeLevel>
+		</GradeLevels>
+		<Organization>NGA and CCSSO</Organization>
+	</StandardIdentifier>
+	<LearningStandardDocumentRefId>90C193D47B9244F8187397418AB467633</LearningStandardDocumentRefId>
+
+</LearningStandardItem>
+
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="36D2724C6A12472C861F923423CD3E66" xml:lang="en">
+	<StandardSettingBody>
+		<Country>US</Country>
+		<SettingBodyName>NGA and CCSSO</SettingBodyName>
+	</StandardSettingBody>
+	<StandardHierarchyLevel>
+		<Number>3</Number>
+		<Description>Standard Item</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>17C8B89D17914DBEB87FE86B7ED3E941</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.7.EE.3</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>
+			Solve multi-step real-life and mathematical problems posed with positive and negative rational numbers in any form (whole numbers, fractions, and decimals), using tools strategically. Apply properties of operations to calculate with numbers in any form; convert between forms as appropriate; and assess the reasonableness of answers using mental computation and estimation strategies. For example: If a woman making $25 an hour gets a 10% raise, she will make an additional 1/10 of her salary an hour, or $2.50, for a new salary of $27.50. If you want to place a towel bar 9 3/4 inches long in the center of a door that is 27 1/2 inches wide, you will need to place the bar about 9 inches from each edge; this estimate can be used as a check on the exact computation.
+		</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>
+			<Code>07</Code>
+		</GradeLevel>
+
+	</GradeLevels>
+	<SubjectArea>
+		<Code>52</Code>
+		<OtherCodeList>
+			<OtherCode Codeset="Text">Mathematics</OtherCode>
+		</OtherCodeList>
+	</SubjectArea>
+	<StandardIdentifier>
+		<YearCreated>2010</YearCreated>
+		<SubjectArea>
+			<Code>02</Code>
+			<OtherCodeList>
+				<OtherCode Codeset="Text">Mathematics</OtherCode>
+			</OtherCodeList>
+		</SubjectArea>
+		<StandardNumber>01</StandardNumber>
+		<GradeLevels>
+			<GradeLevel>
+				<Code>KG</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>01</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>02</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>03</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>04</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>05</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>06</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>07</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>08</Code>
+			</GradeLevel>
+		</GradeLevels>
+		<Organization>NGA and CCSSO</Organization>
+	</StandardIdentifier>
+	<LearningStandardDocumentRefId>90C193D47B9244F8187397418AB467633</LearningStandardDocumentRefId>
+
+</LearningStandardItem>
+
+
+

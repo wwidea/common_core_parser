@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="7D08B0B9AD304B639AC059410A68395B" xml:lang="en">
+	<StandardSettingBody>
+		<Country>US</Country>
+		<SettingBodyName>NGA and CCSSO</SettingBodyName>
+	</StandardSettingBody>
+	<StandardHierarchyLevel>
+		<Number>3</Number>
+		<Description>Standard Item</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>F556A7C16BC14E19952C4E3D962B02F8</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.7.EE.4.a</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>
+			Solve word problems leading to equations of the form px + q = r and p(x + q) = r, where p, q, and r are specific rational numbers. Solve equations of these forms fluently. Compare an algebraic solution to an arithmetic solution, identifying the sequence of the operations used in each approach. For example, the perimeter of a rectangle is 54 cm. Its length is 6 cm. What is its width?
+		</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>
+			<Code>07</Code>
+		</GradeLevel>
+
+	</GradeLevels>
+	<SubjectArea>
+		<Code>52</Code>
+		<OtherCodeList>
+			<OtherCode Codeset="Text">Mathematics</OtherCode>
+		</OtherCodeList>
+	</SubjectArea>
+	<StandardIdentifier>
+		<YearCreated>2010</YearCreated>
+		<SubjectArea>
+			<Code>02</Code>
+			<OtherCodeList>
+				<OtherCode Codeset="Text">Mathematics</OtherCode>
+			</OtherCodeList>
+		</SubjectArea>
+		<StandardNumber>01</StandardNumber>
+		<GradeLevels>
+			<GradeLevel>
+				<Code>KG</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>01</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>02</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>03</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>04</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>05</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>06</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>07</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>08</Code>
+			</GradeLevel>
+		</GradeLevels>
+		<Organization>NGA and CCSSO</Organization>
+	</StandardIdentifier>
+	<LearningStandardDocumentRefId>90C193D47B9244F8187397418AB467633</LearningStandardDocumentRefId>
+
+</LearningStandardItem>
+
+
+

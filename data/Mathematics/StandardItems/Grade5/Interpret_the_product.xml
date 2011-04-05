@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="5D90BC04AEA0401BA89E801EC1B5E467" xml:lang="en">
+	<StandardSettingBody>
+		<Country>US</Country>
+		<SettingBodyName>NGA and CCSSO</SettingBodyName>
+	</StandardSettingBody>
+	<StandardHierarchyLevel>
+		<Number>3</Number>
+		<Description>Standard Item</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>DB1A8298E2F043C084956A041991414C</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.5.NF.4.a</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>
+			Interpret the product (a/b) x q as a parts of a partition of q into b equal parts; equivalently, as the result of a sequence of operations a x q ÷ b. For example, use a visual fraction model to show (2/3) x 4 = 8/3, and create a story context for this equation. Do the same with (2/3) x (4/5) = 8/15. (In general, (a/b) x (c/d) = ac/bd.)
+		</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>
+			<Code>05</Code>
+		</GradeLevel>
+	</GradeLevels>
+	<SubjectArea>
+		<Code>52</Code>
+		<OtherCodeList>
+			<OtherCode Codeset="Text">Mathematics</OtherCode>
+		</OtherCodeList>
+	</SubjectArea>
+	<StandardIdentifier>
+		<YearCreated>2010</YearCreated>
+		<SubjectArea>
+			<Code>02</Code>
+			<OtherCodeList>
+				<OtherCode Codeset="Text">Mathematics</OtherCode>
+			</OtherCodeList>
+		</SubjectArea>
+		<StandardNumber>01</StandardNumber>
+		<GradeLevels>
+			<GradeLevel>
+				<Code>KG</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>01</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>02</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>03</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>04</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>05</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>06</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>07</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>08</Code>
+			</GradeLevel>
+		</GradeLevels>
+		<Organization>NGA and CCSSO</Organization>
+	</StandardIdentifier>
+	<LearningStandardDocumentRefId>90C193D47B9244F8187397418AB467633</LearningStandardDocumentRefId>
+
+</LearningStandardItem>
+
+

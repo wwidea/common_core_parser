@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="CD3B1547B41B44ABB2F7754819DDC3B2" xml:lang="en">
+	<StandardSettingBody>
+		<Country>US</Country>
+		<SettingBodyName>NGA and CCSSO</SettingBodyName>
+	</StandardSettingBody>
+	<StandardHierarchyLevel>
+		<Number>3</Number>
+		<Description>Standard Item</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>D0B694BF94FD4155992A8901F64527B6</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.5.MD.3.a</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>
+			A cube with side length 1 unit, called a "unit cube," is said to have "one cubic unit" of volume, and can be used to measure volume.
+		</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>
+			<Code>05</Code>
+		</GradeLevel>
+	</GradeLevels>
+	<SubjectArea>
+		<Code>52</Code>
+		<OtherCodeList>
+			<OtherCode Codeset="Text">Mathematics</OtherCode>
+		</OtherCodeList>
+	</SubjectArea>
+	<StandardIdentifier>
+		<YearCreated>2010</YearCreated>
+		<SubjectArea>
+			<Code>02</Code>
+			<OtherCodeList>
+				<OtherCode Codeset="Text">Mathematics</OtherCode>
+			</OtherCodeList>
+		</SubjectArea>
+		<StandardNumber>01</StandardNumber>
+		<GradeLevels>
+			<GradeLevel>
+				<Code>KG</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>01</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>02</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>03</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>04</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>05</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>06</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>07</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>08</Code>
+			</GradeLevel>
+		</GradeLevels>
+		<Organization>NGA and CCSSO</Organization>
+	</StandardIdentifier>
+	<LearningStandardDocumentRefId>90C193D47B9244F8187397418AB467633</LearningStandardDocumentRefId>
+
+</LearningStandardItem>
+

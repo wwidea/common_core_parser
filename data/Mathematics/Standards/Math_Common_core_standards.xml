@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardDocument RefId="90C193D47B9244F8187397418AB467633" xml:lang="en">
+	<Title>Mathematical Practices</Title>
+	<Description>This document describe varieties of expertise that mathematics educators at all levels should seek to develop in their students. </Description>
+	<Source>State</Source>
+	<Organizations>
+		<Organization>Council of Chief State School Officers</Organization>
+		<Organization>National Governors Association Center for Best Practices</Organization>
+	</Organizations>
+	<Authors>
+		<Author>CCSSO</Author>
+		<Author>NGA</Author>
+	</Authors>
+	<OrganizationContactPoint>http://www.corestandards.org/</OrganizationContactPoint>
+	<SubjectAreas>
+		<SubjectArea>
+			<Code>02</Code>
+			<OtherCodeList>
+				<OtherCode Codeset="Text">Mathematics</OtherCode>
+			</OtherCodeList>
+		</SubjectArea>
+	</SubjectAreas>
+	<DocumentStatus>Adopted</DocumentStatus>
+	<DocumentDate>2010-06-02</DocumentDate>
+	<Copyright>
+		<Date>2010-02-05</Date>
+		<Holder>NGA and CCSSO</Holder>
+	</Copyright>
+	<GradeLevels>
+		<GradeLevel>
+			<Code>KG</Code>
+		</GradeLevel>
+		<GradeLevel>
+			<Code>01</Code>
+		</GradeLevel>
+		<GradeLevel>
+			<Code>02</Code>
+		</GradeLevel>
+		<GradeLevel>
+			<Code>03</Code>
+		</GradeLevel>
+		<GradeLevel>
+			<Code>04</Code>
+		</GradeLevel>
+		<GradeLevel>
+			<Code>05</Code>
+		</GradeLevel>
+		<GradeLevel>
+			<Code>06</Code>
+		</GradeLevel>
+		<GradeLevel>
+			<Code>07</Code>
+		</GradeLevel>
+		<GradeLevel>
+			<Code>08</Code>
+		</GradeLevel>
+	</GradeLevels>
+	<RepositoryDate>2010-06-30</RepositoryDate>
+	<LearningStandardItemRefId>D39B218B7FAB47C486F87F95D9AF2E9B</LearningStandardItemRefId>
+</LearningStandardDocument>

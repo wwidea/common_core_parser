@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="997F0DE543AD4057B10322760137928F" xml:lang="en">
+	<StandardSettingBody>
+		<Country>US</Country>
+		<SettingBodyName>NGA and CCSSO</SettingBodyName>
+	</StandardSettingBody>
+	<StandardHierarchyLevel>
+		<Number>3</Number>
+		<Description>Standard Item</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>F3FB7CBBD33041829C7B44A2983270C9</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>RF.2.3</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>
+			Know and apply grade-level phonics and word analysis skills in decoding words.
+		</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>
+			<Code>02</Code>
+		</GradeLevel>
+	</GradeLevels>
+	<SubjectArea>
+		<Code>01</Code>
+		<OtherCodeList>
+			<OtherCode Codeset="Text">English Language Arts &amp; Literacy</OtherCode>
+		</OtherCodeList>
+	</SubjectArea>
+	<StandardIdentifier>
+		<YearCreated>2010</YearCreated>
+		<SubjectArea>
+			<Code>01</Code>
+			<OtherCodeList>
+				<OtherCode Codeset="Text">English Language Arts &amp; Literacy</OtherCode>
+			</OtherCodeList>
+		</SubjectArea>
+		<StandardNumber>01</StandardNumber>
+		<GradeLevels>
+			<GradeLevel>
+				<Code>KG</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>01</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>02</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>03</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>04</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>05</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>06</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>07</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>08</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>09</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>10</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>11</Code>
+			</GradeLevel>
+			<GradeLevel>
+				<Code>12</Code>
+			</GradeLevel>
+		</GradeLevels>
+		<Organization>NGA and CCSSO</Organization>
+	</StandardIdentifier>
+	<LearningStandardDocumentRefId>0D46CE88E57C4670A60E82E181CF152D</LearningStandardDocumentRefId>
+
+</LearningStandardItem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
