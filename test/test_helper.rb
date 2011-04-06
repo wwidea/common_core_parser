@@ -1,3 +1,6 @@
+#!/usr/bin/env ruby
+# encoding: UTF-8
+
 require File.expand_path('../../init', __FILE__)
 require 'test/unit'
 

@@ -2,7 +2,6 @@
 # encoding: UTF-8
 
 require File.expand_path('../../init', __FILE__ )
-require 'nokogiri'
 
 standard = Nokogiri::XML(Pathname.new(File.expand_path('../../data/Mathematics/StandardItems/Grade1/10_can_be_thought_of_as_a_bundle_of_ten_ones.xml',  __FILE__)))
 puts CommonCore::Standard.new(standard)
