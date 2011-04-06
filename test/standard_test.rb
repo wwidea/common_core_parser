@@ -21,8 +21,12 @@ class StandardTest < Test::Unit::TestCase
     assert_equal '10 can be thought of as a bundle of ten ones—called a "ten".', math_standard.statement
   end
   
-  test "should return grade" do
-    assert_equal '01', math_standard.grade
+  test "should return grades" do
+    assert_equal ['01'], math_standard.grades
+  end
+  
+  test "should return multiple grades" do
+    assert_equal %w(09 10), ela_standard.grades
   end
   
   test "should return string representation of standard" do
@@ -39,8 +43,8 @@ class StandardTest < Test::Unit::TestCase
     assert_equal false, math_standard.valid?
   end
   
-  test "should return true for valid_grade?" do
-    assert_equal true, math_standard.valid_grade?
+  test "should return true for valid_grades?" do
+    assert_equal true, math_standard.valid_grades?
   end
   
   test "should return false for valid_grade? when out of range" do
@@ -55,5 +59,13 @@ private
   
   def math_standard_xml
     @math_standard_xml ||= Nokogiri::XML(File.read(File.expand_path('../data/math_standard.xml', __FILE__)))
+  end
+  
+  def ela_standard
+    CommonCore::Standard.new(ela_standard_xml)
+  end
+  
+  def ela_standard_xml
+    @ela_standard_xml ||= Nokogiri::XML(File.read(File.expand_path('../data/ela_standard.xml', __FILE__)))
   end
 end
