@@ -5,13 +5,15 @@ module CommonCore
   class Loader
     class << self
       def math_standards
-        Dir.glob(File.expand_path('../../../data/Mathematics/StandardItems/Grade*/*.xml',  __FILE__)).map do |filename|
-          CommonCore::Standard.new(Nokogiri::XML(Pathname.new filename))
-        end
+        load_standards_from_path File.expand_path('../../../data/Mathematics/StandardItems/Grade*/*.xml',  __FILE__)
       end
       
       def ela_standards
-        Dir.glob(File.expand_path('../../../data/ELA_08302010/StandardItems/Grade*/*.xml',  __FILE__)).map do |filename|
+        load_standards_from_path File.expand_path('../../../data/ELA_08302010/StandardItems/Grade*/*.xml',  __FILE__)
+      end
+      
+      def load_standards_from_path(path)
+        Dir.glob(path).map do |filename|
           CommonCore::Standard.new(Nokogiri::XML(Pathname.new filename))
         end
       end
