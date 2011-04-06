@@ -23,7 +23,7 @@ module CommonCore
     end
 
     def statement
-      data.xpath('//Statements/Statement').first.text
+      data.xpath('//Statements/Statement').first.text.strip
     end
 
     def grade
@@ -32,6 +32,14 @@ module CommonCore
     
     def to_s
       "ref_id: #{ref_id}, predecessor_ref_id: #{predecessor_ref_id}, code: #{code}, statement: #{statement}, grade: #{grade}"
+    end
+    
+    def valid?
+      !(ref_id.blank? || predecessor_ref_id.blank? || code.blank? || statement.blank?) && valid_grade?
+    end
+    
+    def valid_grade?
+      %w(KG 01 02 03 04 05 06 07 08 09 10 11 12).include?(grade)
     end
   end
 end

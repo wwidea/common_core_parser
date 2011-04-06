@@ -29,6 +29,24 @@ class StandardTest < Test::Unit::TestCase
     assert_equal 'ref_id: 823405101A0842988705A4755FDF0C73, predecessor_ref_id: DC3CA9D4920144bcBC0B5A4B6A5BFB23, code: Mathematics.1.NBT.2.a, statement: 10 can be thought of as a bundle of ten ones—called a "ten"., grade: 01', math_standard.to_s
   end
   
+  test "should return true for valid?" do
+    assert_equal true, math_standard.valid?
+  end
+  
+  test "should return false for valid? when statement is blank" do
+    math_standard.data.xpath('//Statements/Statement').first.inner_html = ''
+    
+    assert_equal false, math_standard.valid?
+  end
+  
+  test "should return true for valid_grade?" do
+    assert_equal true, math_standard.valid_grade?
+  end
+  
+  test "should return false for valid_grade? when out of range" do
+    math_standard.data.xpath('//Statements/Statement').first.inner_html = ''
+  end
+  
 private
   
   def math_standard
