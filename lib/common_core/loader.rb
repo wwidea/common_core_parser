@@ -9,6 +9,12 @@ module CommonCore
           CommonCore::Standard.new(Nokogiri::XML(Pathname.new filename))
         end
       end
+      
+      def ela_standards
+        Dir.glob(File.expand_path('../../../data/ELA_08302010/StandardItems/Grade*/*.xml',  __FILE__)).map do |filename|
+          CommonCore::Standard.new(Nokogiri::XML(Pathname.new filename))
+        end
+      end
     end
   end
 end
