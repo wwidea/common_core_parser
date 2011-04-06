@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby
 # encoding: UTF-8
 
+require 'simplecov'
+SimpleCov.start
+
 require File.expand_path('../../init', __FILE__)
 require 'test/unit'
 
