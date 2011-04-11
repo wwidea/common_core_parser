@@ -5,6 +5,7 @@ require 'test_helper'
 
 class LoaderTest < Test::Unit::TestCase
 
+  # math_standards
   test "should load math standards" do
     standards = CommonCore::Loader.math_standards
     
@@ -12,6 +13,17 @@ class LoaderTest < Test::Unit::TestCase
     standards.each { |standard| assert standard.valid? }
   end
   
+
+  # math_domains
+  test "should load math domains" do
+    domains = CommonCore::Loader.math_domains
+    
+    assert_equal 11, domains.length
+    domains.each { |domain| assert domain.valid? }
+  end
+  
+  
+  # ela_standards
   test "should load ela standards" do
     standards = CommonCore::Loader.ela_standards
     
