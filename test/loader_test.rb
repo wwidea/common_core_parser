@@ -30,4 +30,13 @@ class LoaderTest < Test::Unit::TestCase
     assert_equal 992, standards.length
     standards.each { |standard| assert standard.valid? }
   end
+  
+  
+  # ela_domains
+  test "should load ela domains" do
+    domains = CommonCore::Loader.ela_domains
+    
+    assert_equal 18, domains.length
+    domains.each { |domain| assert domain.valid? }
+  end
 end

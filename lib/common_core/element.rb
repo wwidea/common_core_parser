@@ -30,11 +30,11 @@ module CommonCore
     end
     
     def to_s
-      "ref_id: #{ref_id}, predecessor_ref_id: #{predecessor_ref_id}, code: #{code}, statement: #{statement}, grade: #{grades * ','}"
+      raise RuntimeError
     end
     
     def valid?
-      !(ref_id.blank? || predecessor_ref_id.blank? || code.blank? || statement.blank?) && valid_grades?
+      raise RuntimeError
     end
     
     def valid_grades?
