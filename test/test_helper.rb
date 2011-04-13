@@ -4,7 +4,7 @@
 require 'simplecov'
 SimpleCov.start
 
-require File.expand_path('../../init', __FILE__)
+require File.expand_path('../../lib/common_core', __FILE__)
 require 'test/unit'
 
 class ::Test::Unit::TestCase
