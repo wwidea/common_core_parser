@@ -5,28 +5,28 @@ module CommonCore
     
     def initialize(string)
       # ensure LearningStandardItem root is present
-      raise ArgumentError if string.xpath('//LearningStandardItem').blank?
+      raise ArgumentError if string.xpath('/LearningStandardItem').blank?
       self.data = string
     end
     
     def ref_id
-      data.xpath('//LearningStandardItem').first.attributes['RefId'].value
+      data.xpath('/LearningStandardItem').first.attributes['RefId'].value
     end
     
     def predecessor_ref_id
-      data.xpath('//LearningStandardItem/PredecessorItems/LearningStandardItemRefId').first.text
+      data.xpath('/LearningStandardItem/PredecessorItems/LearningStandardItemRefId').first.text
     end
     
     def code
-      data.xpath('//LearningStandardItem/StatementCodes/StatementCode').first.text
+      data.xpath('/LearningStandardItem/StatementCodes/StatementCode').first.text
     end
     
     def statement
-      data.xpath('//LearningStandardItem/Statements/Statement').first.text.strip
+      data.xpath('/LearningStandardItem/Statements/Statement').first.text.strip
     end
     
     def grades
-      data.xpath('//LearningStandardItem/GradeLevels/GradeLevel/Code').map(&:text)
+      data.xpath('/LearningStandardItem/GradeLevels/GradeLevel/Code').map(&:text)
     end
     
     def to_s
