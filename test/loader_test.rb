@@ -27,7 +27,7 @@ class LoaderTest < Test::Unit::TestCase
   test "should load ela standards" do
     standards = CommonCore::Loader.ela_standards
     
-    assert_equal 992, standards.length
+    assert_equal 1024, standards.length
     standards.each { |standard| assert standard.valid? }
   end
   
