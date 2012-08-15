@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="345E28505AB943BFA287EC8FADBF95AD" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>91FABAB899814C55851003A0EE98F8FB</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.6.NS.1.1</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Interpret and compute quotients of fractions, and solve word problems involving division of fractions by fractions, e.g., by using visual fraction models and equations to represent the problem. For example, create a story context for (2/3) ÷ (3/4) and use a visual fraction model to show the quotient; use the relationship between multiplication and division to explain that (2/3) ÷ (3/4) = 8/9 because 3/4 of 8/9 is 2/3. (In general, (a/b) ÷ (c/d) = ad/bc.) How much chocolate will each person get if 3 people share 1/2 lb of chocolate equally? How many 3/4-cup servings are in 2/3 of a cup of yogurt? How wide is a rectangular strip of land with length 3/4 mi and area 1/2 square mi?</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>6</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

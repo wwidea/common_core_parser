@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="2A26EE660F72412EA29765D79C367F0B" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>23FDB68FBA7C4ACFA753306D02D0343F</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.1.OA.4.7</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>	Understand the meaning of the equal sign, and determine if equations involving addition and subtraction are true or false. For example, which of the following equations are true and which are false? 6 = 6, 7 = 8 – 1,  5 + 2 = 2 + 5,  4 + 1 = 5 + 2.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>1</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

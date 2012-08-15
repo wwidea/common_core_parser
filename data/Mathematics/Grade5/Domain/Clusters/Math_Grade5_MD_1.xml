@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="DC3BDA42AAD245D6AD4025C0C1AA61F1" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>4</Number>
+    <Description>Cluster</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>FFF941DFD4B04D0B94CC46533BE37378</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.5.MD.1</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Convert like measurement units within a given measurement system</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>5</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>
+

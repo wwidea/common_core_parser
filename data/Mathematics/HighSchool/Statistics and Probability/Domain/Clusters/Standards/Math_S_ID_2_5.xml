@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="2F8BB9383AC84D90BAC4AB04564FB8F5" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>CD5D9C5E086B4FBC8570AAD25285B297</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.S.ID.2.5</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Summarize categorical data for two categories in two-way frequency tables. Interpret relative frequencies in the context of the data (including joint, marginal, and conditional relative frequencies). Recognize possible associations and trends in the data.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="716CB223FD464557990DA2C256BDC030" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>472222394A204D26844BA834703EAC55</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.7.SP.3.7.a</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Develop a uniform probability model by assigning equal probability to all outcomes, and use the model to determine probabilities of events. For example, if a student is selected at random from a class, find the probability that Jane will be selected and the probability that a girl will be selected.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>7</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>
+

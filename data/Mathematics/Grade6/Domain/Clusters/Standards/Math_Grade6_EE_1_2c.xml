@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="DC40EAF30F894820988517FBA44D9601" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>F78ACD4FA2D74173998D2EA26FBA1E1B</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.6.EE.1.2.c</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Evaluate expressions at specific values of their variables. Include expressions that arise from formulas used in real-world problems. Perform arithmetic operations, including those involving whole-number exponents, in the conventional order when there are no parentheses to specify a particular order (Order of Operations). For example, use the formulas V = s3 and A = 6 s2 to find the volume and surface area of a cube with sides of length s = 1/2.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>6</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

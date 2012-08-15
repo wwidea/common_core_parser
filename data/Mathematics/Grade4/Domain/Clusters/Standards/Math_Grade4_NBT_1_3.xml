@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="7377370C14934AB2AA5F89D77F9E9F59 " xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>8FD3F69556544361BDEA345B9D5DAC6B</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.4.NBT.1.3</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Use place value understanding to round multi-digit whole numbers to any place.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>4</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>
+

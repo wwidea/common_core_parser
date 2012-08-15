@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="19256360FBB6482E8D4E9D15F9B0FAE8" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>B8FB763556FF41D9B95242FA4D2BBC70</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.N.CN.2.6</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>(+) Calculate the distance between numbers in the complex plane as the modulus of the difference, and the midpoint of a segment as the average of the numbers at its endpoints.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

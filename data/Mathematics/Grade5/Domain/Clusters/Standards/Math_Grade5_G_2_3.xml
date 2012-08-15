@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="4A929DB5A41A4DD192F3B7790EBF0B8F" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>5C683021E8394B7597AE0222D0BBE59E</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.5.G.2.3</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Understand that attributes belonging to a category of two-dimensional figures also belong to all subcategories of that cate-gory. For example, all rectangles have four right angles and squares are rectangles, so all squares have four right angles.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>5</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

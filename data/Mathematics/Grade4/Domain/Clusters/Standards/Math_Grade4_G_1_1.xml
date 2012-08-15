@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="EE2F4A7279304A699452983BE09CA2A0" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>0B670B7BA80B457D82D11DD3D54DCE92</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.4.G.1.1</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Draw points, lines, line segments, rays, angles (right, acute, obtuse), and perpendicular and parallel lines. Identify these in two-dimensional figures.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>4</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

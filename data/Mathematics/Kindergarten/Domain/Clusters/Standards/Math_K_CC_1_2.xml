@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+				
+<LearningStandardItem RefId="5E6A3E3B939B4577B104FA8658206E9E" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>4F4106218F834258BCDDB7EB39806880</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.K.CC.1.2</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Count forward beginning from a given number within the known sequence</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>K</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 		
+
+		
+
+
+

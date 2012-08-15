@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="8F2F5D86FFE14C39BD201EB5A373E483" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>5B85430986994BB498573FE89639B3A7</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.G.GMD.1.2</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>(+) Give an informal argument using Cavalieri’s principle for the formulas for the volume of a sphere and other solid figures.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

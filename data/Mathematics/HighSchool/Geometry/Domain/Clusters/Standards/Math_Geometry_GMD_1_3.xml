@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="3617ACE47B5140698E9624A9E60800C1" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>5B85430986994BB498573FE89639B3A7</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.G.GMD.1.3</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Use volume formulas for cylinders, pyramids, cones, and spheres to solve problems.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

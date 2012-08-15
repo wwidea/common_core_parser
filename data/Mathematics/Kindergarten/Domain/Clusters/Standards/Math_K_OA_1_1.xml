@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="C815B29CD8F546BBBB4C647B9D163942" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>E754542E6C144EEC8D7E332063FF4F67</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.K.OA.1.1</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Represent addition and subtraction with objects, fingers, mental images, drawings , sounds (e.g., claps), acting out situa-tions, verbal explanations, expressions, or equations.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>K</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

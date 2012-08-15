@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="D55BE0EDAFBC47B0BBDB1B88F9DF8781" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>B1AC98EADE4145689E70EEEBD9B8CC18</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.K.G.1.1</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Describe objects in the environment using names of shapes, and describe the relative positions of these objects using terms such as above, below, beside, in front of, behind, and next to.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>K</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

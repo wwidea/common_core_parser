@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="E9FDE5E39856429F89106808E49664ED" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>4</Number>
+    <Description>Cluster</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>9558DCA094094B3DB58B9EC985F8192B</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.5.OA.2</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Analyze patterns and relationships.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>5</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

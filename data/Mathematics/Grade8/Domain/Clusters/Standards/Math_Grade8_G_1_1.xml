@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="72594BE267C043CC819168C2580494B9" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>C0C985F7FFE7423D835C537871E191F5</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.8.G.1.1</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Verify experimentally the properties of rotations, reflections, and translations.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>8</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

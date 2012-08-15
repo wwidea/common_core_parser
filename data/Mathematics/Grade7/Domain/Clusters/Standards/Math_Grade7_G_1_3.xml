@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="34805B0C060B46A699F8DD41034E82DF" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>5995C336BE744A67B7D2D5FD8DC54086</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.7.G.1.3</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Describe the two-dimensional figures that result from slicing three-dimensional figures, as in plane sections of right rectan-gular prisms and right rectangular pyramids.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>7</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="3C3333C32A6E4223B2FAC1577642617E" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>7FCA1FBCCFE846C3A774502E1F65B093</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.6.EE.3.9</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Use variables to represent two quantities in a real-world problem that change in relationship to one another; write an equa-tion to express one quantity, thought of as the dependent variable, in terms of the other quantity, thought of as the inde-pendent variable. Analyze the relationship between the dependent and independent variables using graphs and tables, and relate these to the equation. For example, in a problem involving motion at constant speed, list and graph ordered pairs of distances and times, and write the equation d = 65t to represent the relationship between distance and time.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>6</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

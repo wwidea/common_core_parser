@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="5BD6F36D021A429E951EE42C678F1CF5" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>6</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>87B0241DE22D4A18943F3BC6CBF5DA82</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.A.REI.2.4.a</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Use the method of completing the square to transform any quadratic equation in x into an equation of the form (x – p)2 = q that has the same solutions. Derive the quadratic formula from this form.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="61E5ED58B8D14F3DBEBF8C11108ADDD4" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>25270B3E4531410DA4BECFDE1F058E6A</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.6.SP.2.5.b</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Describing the nature of the attribute under investigation, including how it was measured and its units of measurement.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>6</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

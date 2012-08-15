@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="6FC2501BA58B4695979EA68AC7E2C987" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>71C7D669B568463CB1189D089CF4C723</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.7.RP.1.1</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Compute unit rates associated with ratios of fractions, including ratios of lengths, areas and other quantities measured in like or different units. For example, if a person walks ½ mile in each ¼ hour, compute the unit rate as the complex fraction ½/¼ miles per hour, equivalently 2 miles per hour.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>7</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

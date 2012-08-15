@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="5E5EDB35EAC7459BA058E90E23307D9B" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>3</Number>
+		<Description>Domain</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>9ACAF981C7D94835A2FE2FF9C10A9B3E</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.S.IC</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Making Inferences and Justifying Conclusions</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

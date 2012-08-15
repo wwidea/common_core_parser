@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="F81FE2BA03074CD7AFB0C48A37A9D51A" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>366753EC60DE4400AC95657B754A9F34</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.5.NF.2.5</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Interpret multiplication as scaling (resizing), by:</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>5</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

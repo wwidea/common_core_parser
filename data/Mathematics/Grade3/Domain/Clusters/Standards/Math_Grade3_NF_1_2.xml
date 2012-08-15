@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="8C551F4EF2224A61AED96E27F7BB8852" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>FB0C3EF6E0254112BE3E1A3B3BBE691C</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.3.NF.1.2</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Understand a fraction as a number on the number line; represent fractions on a number line diagram.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>3</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>
+

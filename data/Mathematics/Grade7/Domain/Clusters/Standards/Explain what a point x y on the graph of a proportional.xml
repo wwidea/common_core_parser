@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="6C1D8F2164CC4763AD85D57DB2BE9C15" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>A57D2EDF9830409CB97D9F8DBD6763DD</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.7.RP.2.4</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Explain what a point (x, y) on the graph of a proportional relationship means in terms of the situation, with special at-tention to the points (0, 0) and (1, r) where r is the unit rate.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>7</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

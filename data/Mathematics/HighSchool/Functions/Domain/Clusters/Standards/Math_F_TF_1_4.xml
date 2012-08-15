@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="E1FA68F31C204dd0B94D58A32D9C6E42" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>0B13FE26FA344dca998C7DEDEBC7E0BF</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.F.TF.1.4</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>(+) Use the unit circle to explain symmetry (odd and even) and periodicity of trigonometric functions. </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>HS</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

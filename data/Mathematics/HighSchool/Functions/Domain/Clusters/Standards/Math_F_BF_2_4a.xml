@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="392F16871F5443c9BE065FD1A9DE39C2" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>D600962249FF4b1aADC5857575D228AE</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.F.BF.2.4.a</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Solve an equation of the form f(x) = c for a simple function f that has an inverse and write an expression for the inverse. For example, f(x) =2 x3 or f(x) = (x+1)/(x-1) for x ≠ 1.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>HS</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

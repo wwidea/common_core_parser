@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="F4B7CBBED04C4960A3F16E86069BE376" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>D600962249FF4b1aADC5857575D228AE</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.F.BF.2.4.b</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>(+)  Verify by composition that one function is the inverse of another.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>HS</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

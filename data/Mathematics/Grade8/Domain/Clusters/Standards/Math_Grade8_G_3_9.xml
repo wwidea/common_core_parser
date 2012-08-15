@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="21737E6036F14B5C9C2B7C702CA8C5F1" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>1843F8FBB5AE461199C9463C49D26B74</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.8.G.3.9</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Know the formulas for the volumes of cones, cylinders, and spheres and use them to solve real-world and mathematical problems.
+    </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>8</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

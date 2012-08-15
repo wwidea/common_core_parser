@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="3DEE205D86BC461FA4271EF4BD190A0C" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>6</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>A0586B74C257473C98F38DD353D39BC5</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.K.CC.2.4.b</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Understand that the last number name said tells the number of objects counted. The number of objects is the same re-gardless of their arrangement or the order in which they were counted.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>K</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="D8C53E0B5E7445D1B3493BEB30AAD017" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>4</Number>
+    <Description>Cluster</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>AA81F78A2DFE4533AEF34617B0A51D16</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.7.G.2</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Solve real-life and mathematical problems involving angle measure, area, surface area, and volume.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>7</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

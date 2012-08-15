@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="236B7B9A5B6142e4867DF7E103BE81FE" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>4</Number>
+    <Description>Cluster</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>174BF099B6494235AE851520C41B703A</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.8.G.3</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Solve real-world and mathematical problems involving volume of cylinders, cones and spheres.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>8</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

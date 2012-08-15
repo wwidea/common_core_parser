@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="70C12332BEED45098AA0A0BBCD977376" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>6</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>95A47E3EB7134F7FA65667B692D6F23E</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.3.NF.1.3.c</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Express whole numbers as fractions, and recognize fractions that are equivalent to whole numbers. Examples: Express 3 in the form 3 = 3/1; recognize that 6/1 = 6; locate 4/4 and 1 at the same point of a number line diagram.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>3</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

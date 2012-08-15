@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="F6933013AE4F438BB52517F900140E51" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>6</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>1195E43626BF4A6B8AA96AF62AFB4283</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.4.NF.2.3.a</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Understand addition and subtraction of fractions as joining and separating parts referring to the same whole.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>4</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

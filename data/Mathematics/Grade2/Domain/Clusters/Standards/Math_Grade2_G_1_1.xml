@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="61864044228F4141AF5A894EC059DFB7" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>E82ECFD919D748a7AD0F9AFDDF8EA50F</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.2.G.1.1</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Recognize and draw shapes having specified attributes, such as a given number of angles or a given number of equal faces.  Identify triangles, quadrilaterals, pentagons, hexagons, and cubes.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>2</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>
+

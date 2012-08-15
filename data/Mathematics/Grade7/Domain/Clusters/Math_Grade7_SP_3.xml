@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="C62D7937C1DD4C009128AE62E48A92C3" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>4</Number>
+    <Description>Cluster</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>3727FE1F6453480DA946BA727772D615</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.7.SP.3</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Investigate chance processes and develop, use, and evaluate probability models.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>7</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

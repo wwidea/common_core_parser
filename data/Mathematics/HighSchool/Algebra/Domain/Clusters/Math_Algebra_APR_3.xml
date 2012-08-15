@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="A2539A99653A47DBAFA1740D2F0BE124" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>4</Number>
+		<Description>Cluster</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>41C8B7E910BA4EE6ACBBAB231F87B3F6</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.A.APR.3</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Use polynomial identities to solve problems.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

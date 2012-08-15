@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="D99E14C6EA514E36A82F63FC3EEA56A0" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>4</Number>
+		<Description>Cluster</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>7A0E8B15219746AD8FC2CA9A239D1CBE</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.3.OA.4</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Solve problems involving the four operations, and identify and explain patterns in arithmetic.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>3</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

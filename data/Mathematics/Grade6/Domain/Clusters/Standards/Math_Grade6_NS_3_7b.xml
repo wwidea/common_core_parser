@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="3D676E16444546DAB6327396969B83D4" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>71F96ADF450A4133A258FDACE2D3910D</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.6.NS.3.7.b</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Write, interpret, and explain statements of order for rational numbers in real-world contexts. For example, write –3 oC > –7 oC to express the fact that –3 oC is warmer than –7 oC.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>6</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

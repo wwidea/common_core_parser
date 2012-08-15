@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="695A7607FE8A4E27AB80652C45C84FA8" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>E754542E6C144EEC8D7E332063FF4F67</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.K.OA.1.2</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Solve addition and subtraction word problems, and add and subtract within 10, e.g., by using objects or drawings to represent the problem.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>K</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 	

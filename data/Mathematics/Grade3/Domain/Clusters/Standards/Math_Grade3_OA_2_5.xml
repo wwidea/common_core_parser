@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="86C2F83D480C4300939245389E99711A" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>2553905A2EE948F2924E4E48ECDC1274</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.3.OA.2.5</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Apply properties of operations as strategies to multiply and divide.  Examples: If 6 x 4 = 24 is known, then 4 x 6 = 24 is also known. (Commutative property of multiplication.) 3 x 5 x 2 can be found by 3 x 5 = 15, then 15 x 2 = 30, or by 5 x 2 = 10, then 3 x 10 = 30. (Associative property of multiplication.) Knowing that 8 x 5 = 40 and 8 x 2 = 16, one can find 8 x 7 as 8 x (5 + 2) = (8 x 5) + (8 x 2) = 40 + 16 = 56. (Distributive property.)</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>3</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>
+

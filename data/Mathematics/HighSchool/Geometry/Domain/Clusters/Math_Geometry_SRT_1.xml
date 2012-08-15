@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="1D96FE69A8D94CCFAA827DBD53424C3E" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>4</Number>
+		<Description>Cluster</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>409F886465DA4D5DA5374F843753A547</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.G.SRT.1</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Understand similarity in terms of similarity transformations.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

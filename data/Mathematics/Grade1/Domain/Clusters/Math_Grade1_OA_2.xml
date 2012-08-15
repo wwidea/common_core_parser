@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="FDFBABAA6BFA4FBDACA10CA3898A2D6E" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>4</Number>
+		<Description>Cluster</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>C401857C8C89416EA51BF94C410237DF</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.1.OA.2</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Understand and apply properties of operations and the relationship between addition and subtraction</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>1</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

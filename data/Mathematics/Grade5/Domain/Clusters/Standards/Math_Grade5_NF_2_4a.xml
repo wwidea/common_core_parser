@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="6B92A5720478456FAFF81454BA4CFDA2" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>D270A624395246338200753501C0BF0E</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.5.NF.2.4.a</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Interpret the product (a/b) * q as a parts of a partition of q into b equal parts; equivalently, as the result of a sequence of operations a x q ÷ b. For example, use a visual fraction model to show (2/3) x 4 = 8/3, and create a story context for this equation. Do the same with (2/3) x (4/5) = 8/15. (In general, (a/b) x (c/d) = ac/bd.)</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>5</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

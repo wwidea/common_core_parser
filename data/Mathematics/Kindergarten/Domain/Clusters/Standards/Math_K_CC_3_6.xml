@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<LearningStandardItem RefId="66626D8AEE4E474B8CFEC8A4B68AA51C" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>74695C233ACE4F458E47C26F8D9FFF86</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.K.CC.3.6</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Identify whether the number of objects in one group is greater than, less than, or equal to the number of objects in another group, e.g., by using matching and counting strategies.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>K</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

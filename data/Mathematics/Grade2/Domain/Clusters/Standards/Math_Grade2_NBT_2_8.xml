@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="D7C98BF1710A476BAFD20AEC169E9DC3" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>E0C9E87B224A43E8A0EFB8503905B720</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.2.NBT.2.8</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Mentally add 10 or 100 to a given number 100–900, and mentally subtract 10 or 100 from a given number 100–900.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>2</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>
+

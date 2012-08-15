@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="72351776259D416CB0A38EEBF8590435" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>E82ECFD919D748a7AD0F9AFDDF8EA50F</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.2.G.1.2</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Partition a rectangle into rows and columns of same-size squares and count to find the total number of them. </Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>2</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

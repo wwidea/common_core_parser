@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="1A7D11B497334220BAFD174AE988EE0C" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>4</Number>
+		<Description>Cluster</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>C401857C8C89416EA51BF94C410237DF</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.1.OA.1</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Represent and solve problems involving addition and subtraction</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>1</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 
+

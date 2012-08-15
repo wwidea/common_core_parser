@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="4402289E4C404C218A290076C04F2688" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>3</Number>
+		<Description>Domain</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>268550F7D2534304B1A580369334A2D4</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.G.GMD</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Geometric Measurement and Dimension</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

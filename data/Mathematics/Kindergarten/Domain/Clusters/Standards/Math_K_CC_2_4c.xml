@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="A863C4E937BE4307A241D126B8FBD342" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>6</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>A0586B74C257473C98F38DD353D39BC5</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.K.CC.2.4.c</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Understand that each successive number name refers to a quantity that is one larger. </Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>K</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 
+
+
+

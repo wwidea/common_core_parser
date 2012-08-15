@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="3079DC14566A4ed09B88885B9D66A59B" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>0B13FE26FA344dca998C7DEDEBC7E0BF</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.F.BF.1.3</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>(+) Use special triangles to determine geometrically the values of sine, cosine, tangent for π /3, π/4 and π/6, and use the unit circle to express the values of sine, cosine, and tangent for π-x, π+x, and 2π-x in terms of their values for x, where x is any real number.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>HS</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

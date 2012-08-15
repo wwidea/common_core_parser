@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="C9B9CAD5BDE84CE2A7A0C441A3DF1A2D" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>74695C233ACE4F458E47C26F8D9FFF86</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.K.CC.3.7</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Compare two numbers between 1 and 10 presented as written numerals.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>K</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

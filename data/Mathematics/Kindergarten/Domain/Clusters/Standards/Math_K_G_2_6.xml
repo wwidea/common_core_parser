@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="B0D1D575B5E247988906DE33D93A156A" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>5F9DA7B7BFD04F33B5A925A4825B1DB1</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.K.G.2.6</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Compose simple shapes to form larger shapes. For example, "Can you join these two triangles with full sides touching to make a rec-tangle?"</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>K</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

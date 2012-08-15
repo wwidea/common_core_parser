@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="D07C6A24D9F045EFACB20582472FC7EB" xml:lang="en"> 				
+	<StandardHierarchyLevel>
+		<Number>6</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>C705AD3CCF9641C9A3101BDB10737B11</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.A.SSE.2.3.c</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Use the properties of exponents to transform expressions for exponential functions. For example the expression 1.15t can be rewritten as (1.151/12)12t ≈ 1.01212t to reveal the approximate equivalent monthly interest rate if the annual rate is 15%.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

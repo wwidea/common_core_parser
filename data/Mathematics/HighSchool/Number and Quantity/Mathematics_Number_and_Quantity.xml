@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="98884C74113A4E3FA794D2479088F0DB" xml:lang="en">			
+	<StandardHierarchyLevel>
+		<Number>2</Number>
+		<Description>Subject Grade</Description>
+	</StandardHierarchyLevel>
+	<StatementCodes>
+		<StatementCode>Mathematics.N</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Mathematics | Number and Quantity</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

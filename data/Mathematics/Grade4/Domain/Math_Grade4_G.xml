@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="E7BFB696091F4A10804CA5ADABDDBB6A" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>3</Number>
+		<Description>Domain</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>8E1706CB8CF1441EACF0F47230D202D9</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.4.G</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Geometry</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>4</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

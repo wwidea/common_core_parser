@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="EB54465D5EA44f868FCD2C73D4E782AC" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>148058CA1C12486fBED93EA48399BFB5</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.F.BF.1.1.c</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>(+)  Compose functions. For example, if T(y) is the temperature in the atmosphere as a function of height, and h(t) is the height of a weather balloon as a function of time, then T(h(t)) is the temperature at the location of the weather balloon as a function of time.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>HS</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

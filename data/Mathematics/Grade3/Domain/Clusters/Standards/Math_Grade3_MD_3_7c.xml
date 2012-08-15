@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="4E5415C8BEA348EEA13B1A1C825A5036" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>6</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>DB1670D9BA2E4F6BA040EEA5EE826670</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.3.MD.3.7.c</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Use tiling to show in a concrete case that the area of a rectangle with whole-number side lengths a and b + c is the sum of a  b and a  c. Use area models to represent the distributive property in mathematical reasoning.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>3</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

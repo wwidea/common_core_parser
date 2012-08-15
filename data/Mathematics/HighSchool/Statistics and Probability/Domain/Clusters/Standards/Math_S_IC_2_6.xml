@@ -1,0 +1,21 @@
+﻿
+<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="1B131171F4554E93B31340FABD9FEC34" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>472C49B4DC9A494AA4804C46D08C4CA6</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.S.IC.2.6</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Evaluate reports based on data.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

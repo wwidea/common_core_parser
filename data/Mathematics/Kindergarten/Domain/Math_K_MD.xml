@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="94B039619D004A108A209F8CC0C38292" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>3</Number>
+		<Description>Domain</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>FACBB7C696FE475695920CA622B1C855</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.K.MD</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Measurement and Data</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>K</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

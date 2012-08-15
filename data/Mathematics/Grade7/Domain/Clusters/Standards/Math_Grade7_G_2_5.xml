@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="1EEBD749CD1949C6B06AC489ACA8DA9E" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>D8C53E0B5E7445D1B3493BEB30AAD017</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.7.G.2.5</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Use facts about supplementary, complementary, vertical, and adjacent angles in a multi-step problem to write and use them to solve simple equations for an unknown angle in a figure.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>7</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="1F31DD363906484D9D2779A34FB59610" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>4672773E1A8744EEA5318249CA2D8884</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.6.G.1.1</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Find the area of right triangles, other triangles, special quadrilaterals, and polygons by composing into rectangles or de-composing into triangles and other shapes; apply these techniques in the context of solving real-world and mathematical problems.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>6</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

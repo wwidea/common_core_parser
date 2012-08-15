@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="03B3127447154c298592EB77CC7BD717" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>E9DDBF450BFB48a79C8EF29E1EB211CD</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.F.IF.2.5</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Relate the domain of a function to its graph and, where applicable, to the quantitative relationship it describes. For example, if the function h(n) gives the number of person-hours it takes to assemble n engines in a factory, then the positive integers would be an appropriate domain for the function.★</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>HS</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

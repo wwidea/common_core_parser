@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="9C1435F358A84468956E149747DF8D85" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>3C0139D0DA344DBCAC06DBC4CBC41F9C</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.7.NS.1.1.c</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Understand subtraction of rational numbers as adding the additive inverse, p – q = p + (–q). Show that the distance between two rational numbers on the number line is the absolute value of their difference, and apply this principle in real-world contexts.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>7</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>
+

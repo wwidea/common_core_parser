@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="C7BC027B615547799C1CE8D7F7896DAD" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>A2539A99653A47DBAFA1740D2F0BE124</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.A.APR.3.4</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Prove polynomial identities and use them to describe numerical relationships. For example, the polynomial identity (x2 + y2)2 = (x2 – y2)2 + (2xy)2 can be used to generate Pythagorean triples.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LearningStandardItem RefId="AD3DC4A79D40430EA0BA8F529D221EC8" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>3</Number>
+		<Description>Domain</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>8E1706CB8CF1441EACF0F47230D202D9</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.4.NBT</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Number and Operations in Base Ten</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>4</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

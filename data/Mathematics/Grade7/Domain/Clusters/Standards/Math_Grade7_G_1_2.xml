@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="BF9BA82A90C4445F90F97C8FADCC8943" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>5995C336BE744A67B7D2D5FD8DC54086</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.7.G.1.2</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Draw (freehand, with ruler and protractor, and with technology) geometric shapes with given conditions. Focus on con-structing triangles from three measures of angles or sides, noticing when the conditions determine a unique triangle, more than one triangle, or no triangle. </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>7</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

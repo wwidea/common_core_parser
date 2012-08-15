@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="F6BA12F618B5431b89461FC9782CC955" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>B6B625DA12C4423d955A66BFD1193175</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.F.IF.3.8.b</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Use the properties of exponents to interpret expressions for exponential functions. For example, identify percent rate of change in functions such as y = (1.02)t, y = (0.97)t, y = (1.01)12t, y = (1.2)t/10, and classify them as representing exponential growth or decay.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>HS</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

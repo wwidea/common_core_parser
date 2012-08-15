@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="6319C40BAA4B4B2F8D2B8BF2CA02D465" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>6FC2501BA58B4695979EA68AC7E2C987</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.8.EE.3.8.c</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Solve real-world and mathematical problems leading to two linear equations in two variables. For example, given coordinates for two pairs of points, determine whether the line through the first pair of points intersects the line through the second pair.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>8</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

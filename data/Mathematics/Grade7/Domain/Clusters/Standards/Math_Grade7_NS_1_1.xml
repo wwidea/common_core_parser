@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="3C0139D0DA344DBCAC06DBC4CBC41F9C" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>3DDCF0B192B04D66AEE3E2C9EC8B7CAC</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>Mathematics.7.NS.1.1</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Apply and extend previous understandings of addition and subtraction to add and subtract rational numbers; represent ad-dition and subtraction on a horizontal or vertical number line diagram.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>7</GradeLevel>
+  </GradeLevels>
+  <LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem>

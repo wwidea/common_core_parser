@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="C712BAA86FEF4BFAB703AD2EB402B2DD" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>5F9DA7B7BFD04F33B5A925A4825B1DB1</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.K.G.2.4</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Analyze and compare two- and three-dimensional shapes, in different sizes and orientations, using informal language to de-scribe their similarities, differences, parts (e.g., number of sides and vertices/"corners") and other attributes (e.g., having sides of equal length).</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>K</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

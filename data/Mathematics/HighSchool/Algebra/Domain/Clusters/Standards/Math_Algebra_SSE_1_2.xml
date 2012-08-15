@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="DE5D310B24EA4A7398462924C80EC4BA" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>5</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>16247FEF153B4404A115600AF3C81E03</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.A.SSE.1.2</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>Use the structure of an expression to identify ways to rewrite it. For example, see x4 – y4 as (x2)2 – (y2)2, thus recognizing it as a difference of squares that can be factored as (x2 – y2)(x2 + y2).</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>HS</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 

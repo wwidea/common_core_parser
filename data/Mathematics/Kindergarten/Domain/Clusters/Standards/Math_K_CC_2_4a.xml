@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<LearningStandardItem RefId="7B20214AA4AA445AA720062C6F1B5C58" xml:lang="en">				
+	<StandardHierarchyLevel>
+		<Number>6</Number>
+		<Description>Standard</Description>
+	</StandardHierarchyLevel>
+	<PredecessorItems>
+		<LearningStandardItemRefId>A0586B74C257473C98F38DD353D39BC5</LearningStandardItemRefId>
+	</PredecessorItems>
+	<StatementCodes>
+		<StatementCode>Mathematics.K.CC.2.4.a</StatementCode>
+	</StatementCodes>
+	<Statements>
+		<Statement>When counting objects, say the number names in the standard order, pairing each object with one and only one number name and each number name with one and only one object.</Statement>
+	</Statements>
+	<GradeLevels>
+		<GradeLevel>K</GradeLevel>
+	</GradeLevels>
+	<LearningStandardDocumentRefId>B62C1C106873438AA0126760075A65A3</LearningStandardDocumentRefId>
+</LearningStandardItem> 
+
