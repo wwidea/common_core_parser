@@ -9,7 +9,7 @@ class LoaderTest < Test::Unit::TestCase
   test "should load math standards" do
     standards = CommonCore::Loader.math_standards
     
-    assert_equal 316, standards.length
+    assert_equal 293, standards.length
     standards.each { |standard| assert standard.valid? }
   end
   
@@ -18,7 +18,7 @@ class LoaderTest < Test::Unit::TestCase
   test "should load math domains" do
     domains = CommonCore::Loader.math_domains
     
-    assert_equal 11, domains.length
+    assert_equal 38, domains.length
     domains.each { |domain| assert domain.valid? }
   end
   
@@ -27,8 +27,8 @@ class LoaderTest < Test::Unit::TestCase
   test "should load ela standards" do
     standards = CommonCore::Loader.ela_standards
     
-    assert_equal 1024, standards.length
-    standards.each { |standard| assert standard.valid? }
+    assert_equal 1019, standards.length
+    standards.each { |standard| assert(standard.valid?, standard.to_s) }
   end
   
   
@@ -36,7 +36,7 @@ class LoaderTest < Test::Unit::TestCase
   test "should load ela domains" do
     domains = CommonCore::Loader.ela_domains
     
-    assert_equal 18, domains.length
+    assert_equal 74, domains.length
     domains.each { |domain| assert domain.valid? }
   end
 end

@@ -5,11 +5,11 @@ module CommonCore
   class Loader
     class << self
       def math_standards
-        load_elements_from_paths(CommonCore::Standard, File.expand_path('../../../data/Mathematics/StandardItems/Grade*/*.xml',  __FILE__))
+        load_elements_from_paths(CommonCore::Standard, File.expand_path('../../../data/Mathematics/Grade*/Domain/Clusters/Standards/*.xml',  __FILE__))
       end
       
       def math_domains
-        load_elements_from_paths(CommonCore::Domain, File.expand_path('../../../data/Mathematics/Standards/*.xml',  __FILE__))
+        load_elements_from_paths(CommonCore::Domain, File.expand_path('../../../data/Mathematics/Grade*/Domain/*.xml',  __FILE__))
       end
       
       def ela_standards
