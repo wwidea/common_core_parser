@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="F68EB02BF5104aa4B816D7832165603E" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>4EAFD78784EB4f549121DCA7FCCEB9A0</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.K.RF.3.b</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Phonics and Word Recognition: Associate the long and short sounds with the common spellings (graphemes) for the five major vowels.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>K</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+
+</LearningStandardItem>

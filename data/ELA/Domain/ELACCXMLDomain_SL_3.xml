@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="172698BB7544457787198E0B8EFE5D19" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>4</Number>
+    <Description>Domain</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>9E8F5B9D791546e8AC0D580BF88277B0</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.3.SL</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>Standards for Speaking and Listening</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>3</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+</LearningStandardItem>

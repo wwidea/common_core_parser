@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="E89765EA4DF044588437764DA259D7A5" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>AE2BC234A91446709EBDB06FFDAAE24A</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.5.L.2.c</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Conventions of Standard English:Use a comma to set off the words yes and no (e.g., Yes, thank you), to set off a tag question from the rest of the sentence (e.g., It’s true, isn’t it?), and to indicate direct address (e.g., Is that you, Steve?).</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>5</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+
+</LearningStandardItem>

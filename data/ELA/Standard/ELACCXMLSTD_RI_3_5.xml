@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="5B874950E5834ca1906D58655BAE2963" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>2B4F2AF411E147c9BB5E9D5365591ABF</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.3.RI.5</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>
+      Craft and Structure: Use text features and search tools (e.g., key words, sidebars, hyperlinks) to locate information relevant to a given topic efficiently.
+    </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>3</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+
+</LearningStandardItem>

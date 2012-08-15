@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="BE65F5C379D645eaB905D70CB9660EAB" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>DDC185665B434678B2979FF01C528990</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.9-10.W.2.b</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>
+      Text Types and Purposes: Develop the topic with well-chosen, relevant, and sufficient facts, extended definitions, concrete details, quotations, or other information and examples appropriate to the audience’s knowledge of the topic.
+    </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>9-10</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+</LearningStandardItem>

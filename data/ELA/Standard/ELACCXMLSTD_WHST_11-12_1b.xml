@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="1EB10324F9F240a396681E7B467F161F" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>B45E43C50E3041bdAFD33C49308841B9</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.11-12.WHST.1.b</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Text Types and Purposes: Develop claim(s) and counterclaims fairly and thoroughly, supplying the most relevant data and evidence for each while pointing out the strengths and limitations of both claim(s) and counterclaims in a discipline-appropriate form that anticipates the audience’s knowledge level, concerns, values, and possible biases.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>11-12</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+
+</LearningStandardItem>

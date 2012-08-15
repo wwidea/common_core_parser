@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="949AC7822A944ef098508A2FF2B94C62" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>3</Number>
+    <Description>Subject Grade</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>91C6F4A475F04d768FAAF904EA4DB40C</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.4</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>4</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>4</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+</LearningStandardItem>

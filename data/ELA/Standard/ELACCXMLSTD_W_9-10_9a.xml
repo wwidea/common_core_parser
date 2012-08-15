@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="DF051CB6820849ea93C1358DF961829D" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>B99916F9E70242d1AD8F2C7943182C08</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.9-10.W.9.a</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>
+      Research to Build and Present Knowledge: Apply grades 9–10 Reading standards to literature(e.g., "Analyze how an author draws on and transforms source material in a specific work [e.g., how Shakespeare treats a theme or topic from Ovid or the Bible or how a later author draws on a play by Shakespeare]").
+    </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>9-10</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+</LearningStandardItem>

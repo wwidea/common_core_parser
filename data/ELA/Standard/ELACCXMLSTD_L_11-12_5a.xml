@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="EB01DDC9D1164787ABFC11BEA1663C93" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>94DBD12EFA6C453aA36026D6B555CC7C</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.11-12.L.5.a</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Vocabulary Acquisition and Use:Interpret figures of speech (e.g., hyperbole, paradox) in context and analyze their role in the text.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>11-12</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+ 
+</LearningStandardItem>

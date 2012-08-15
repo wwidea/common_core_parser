@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="C34A7209EE3E4969AA850420FEC6523F" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>CFDD8359D8EE4ed486A3EB0C6B0079E8</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.1.L.1</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Conventions of Standard English:Demonstrate command of the conventions of standard English grammar and usage when writing or speaking.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>1</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+ </LearningStandardItem>

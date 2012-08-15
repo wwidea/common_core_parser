@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="47DDB1BB67034817BE01FE5FAF0B9D9F" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>AE0AF4A21C6041b5BA56A47251FA1EB0</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.4.L.3</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Knowledge of Language:Use knowledge of language and its conventions when writing, speaking, reading, or listening.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>4</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+
+</LearningStandardItem>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="9D6E0F3703E14c65ABDF78AC8F4DC055" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>713DB49BCDF74b8fA3F8973D0BF25929</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.11-12.W.2.d</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>
+      Text Types and Purposes: Use precise language, domain-specific vocabulary, and techniques such as metaphor, simile, and analogy to manage the complexity of the topic.
+    </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>11-12</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+</LearningStandardItem>

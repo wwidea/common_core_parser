@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="841BE31211C44bdaA83885B24694BFED" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>FF341919CDE644998C711D756916B7E9</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.11-12.SL.6</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>
+      Presentation of Knowledge and Ideas: Adapt speech to a variety of contexts and tasks, demonstrating a command of formal English when indicated or appropriate. (See grades 11-12 Language standards 1 and 3 on page 54 for specific expectations.)
+    </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>11-12</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+</LearningStandardItem>

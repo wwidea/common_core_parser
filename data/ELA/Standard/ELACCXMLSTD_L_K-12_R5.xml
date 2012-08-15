@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="1D6EEE46C0334811A4200D57537C4C7D" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>6608FD67EAFB4c01AB36E435B8C63D42</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.K-12.L.R.5</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Vocabulary Acquisition and Use: Demonstrate understanding of word relationships and nuances in word meanings.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>K-12</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+ 
+</LearningStandardItem>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="14BCFED58745444588E0F1E24E6844D8" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>E64E3051D7AC472a962462A69600C63E</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.1.SL.1</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>
+      Comprehension and Collaboration: Participate in collaborative conversations with diverse partners about grade 1 topics and texts with peers and adults in small and larger groups.
+    </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>1</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+</LearningStandardItem>

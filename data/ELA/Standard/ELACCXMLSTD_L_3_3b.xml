@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="92EF8DA8EDE44cd1AFA5888ECABBD099" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>78FD2278A96D4607A6E41E0878E2228C</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.3.L.3.b</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Knowledge of Language:Recognize and observe differences between the conventions of spoken and written standard English.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>3</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+
+</LearningStandardItem>

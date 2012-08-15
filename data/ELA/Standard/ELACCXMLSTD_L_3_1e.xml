@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="E007500A53D7435bBCDEA7F39C11A3DA" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>B927B5F7DC754662B3A8AB28E67CB16E</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.3.L.1.e</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Conventions of Standard English:Form and use the simple (e.g., I walked; I walk; I will walk) verb tenses.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>3</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+
+</LearningStandardItem>

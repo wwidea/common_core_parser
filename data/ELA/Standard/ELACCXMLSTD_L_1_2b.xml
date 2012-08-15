@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="3E4CA22DE9F94e008EE696ADD5E558D0" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>E96639EA8D474a4cA959F62E863F2638</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.1.L.2.b</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Conventions of Standard English:Use end punctuation for sentences.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>1</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+  
+</LearningStandardItem>

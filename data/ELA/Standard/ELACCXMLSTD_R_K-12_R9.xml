@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="D5B0DB7DF55E45d588984A8CF578FB8F" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>07672223398E433a9EBE788FB2152F1B</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.K-12.R.R.9</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>
+      Integration of Knowledge and Ideas: Analyze how two or more texts address similar themes or topics in order to build knowledge or to compare the approaches the authors take.
+    </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>K-12</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+</LearningStandardItem>

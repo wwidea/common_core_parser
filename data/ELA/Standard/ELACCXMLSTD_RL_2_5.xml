@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="04030F04A6544040BB1A29334AB49610" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>A982A8277DCA486bB5F970ED51EE6AB2</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.2.RL.5</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>
+      Craft and Structure: Describe the overall structure of a story, including describing how the beginning introduces the story and the ending concludes the action.
+    </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>2</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+
+</LearningStandardItem>

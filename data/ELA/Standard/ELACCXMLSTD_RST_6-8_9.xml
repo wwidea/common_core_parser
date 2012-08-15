@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="34AEC924C8C642318382176934EE556B" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>BDC9C17DC90447b3B23387F2055C0480</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.6-8.RST.9</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Integration of Knowledge and Ideas: Compare and contrast the information gained from experiments, simulations, video, or multimedia sources with that gained from reading a text on the same topic.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>6-8</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+
+</LearningStandardItem>

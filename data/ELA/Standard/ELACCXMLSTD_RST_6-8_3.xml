@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="FA1F36C9950645679F3114A6DD592A92" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>BDC9C17DC90447b3B23387F2055C0480</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.6-8.RST.3</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Key Ideas and Details: Follow precisely a multistep procedure when carrying out experiments, taking measurements, or performing technical tasks.</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>6-8</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+
+</LearningStandardItem>

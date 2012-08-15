@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="563E08DBFBEF448bB2F2B58E6EE892F2" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>6</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>765591C73D9C4142865305A4CFB5D288</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.K.SL.1.a</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>
+      Comprehension and Collaboration: Follow agreed-upon rules for discussions (e.g., listening to others and taking turns speaking about the topics and texts under discussion).
+    </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>K</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+</LearningStandardItem>

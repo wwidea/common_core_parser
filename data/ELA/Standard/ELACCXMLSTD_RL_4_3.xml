@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="CBF076EB5CD6452dBB56D6720AA38690" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>496B5A78B7194c08AECDEA8350102E1E</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.4.RL.3</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>
+      Key Ideas and Details: Describe in depth a character, setting, or event in a story or drama, drawing on specific details in the text (e.g., a character’s thoughts, words, or actions).
+    </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>4</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+</LearningStandardItem>

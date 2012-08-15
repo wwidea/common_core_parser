@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="B51C6E9FD18247409563F121CE7D9950" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>CE072048B1EB420891ED23C2A04016D7</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.6-8.RH.3</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement> Key Ideas and Details: Identify key steps in a text’s description of a process related to history/social studies (e.g., how a bill becomes law, how interest rates are raised or lowered).</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>6-8</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+
+</LearningStandardItem>

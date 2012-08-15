@@ -14,13 +14,12 @@ module CommonCore
       
       def ela_standards
         load_elements_from_paths(CommonCore::Standard,
-          File.expand_path('../../../data/ELA_08302010/StandardItems/Grade*/*.xml',  __FILE__),
-          File.expand_path('../../../data/ELA_08302010/StandardItems/CCR/*/*.xml',  __FILE__)
+          File.expand_path('../../../data/ELA/Standard/*.xml',  __FILE__),
         )
       end
       
       def ela_domains
-        load_elements_from_paths(CommonCore::Domain, File.expand_path('../../../data/ELA_08302010/Standards/*.xml',  __FILE__))
+        load_elements_from_paths(CommonCore::Domain, File.expand_path('../../../data/ELA/Domain/*.xml',  __FILE__))
       end
       
     private

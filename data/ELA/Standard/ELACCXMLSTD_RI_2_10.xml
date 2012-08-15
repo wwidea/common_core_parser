@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="E96B5CFE560B43fe9C495975024A00FC" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>5</Number>
+    <Description>Standard</Description>
+  </StandardHierarchyLevel>
+  <PredecessorItems>
+    <LearningStandardItemRefId>8C19382DBADF4869BED263846881ED2D</LearningStandardItemRefId>
+  </PredecessorItems>
+  <StatementCodes>
+    <StatementCode>ELA.CC.2.RI.10</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>
+      Range of Reading and Level of Text Complexity: By the end of year, read and comprehend informational texts, including history/social studies, science, and technical texts, in the grades 2–3 text complexity band proficiently, with scaffolding as needed at the high end of the range.
+    </Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>2</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+
+</LearningStandardItem>
