@@ -5,9 +5,11 @@ require 'simplecov'
 SimpleCov.start
 
 require File.expand_path('../../lib/common_core', __FILE__)
+require 'active_support'
+require 'active_support/test_case'
 require 'test/unit'
 
-class ::Test::Unit::TestCase
+class ActiveSupport::TestCase
   class << self
     # test "verify something" do
     #   ...
