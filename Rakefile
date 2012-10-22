@@ -1,9 +1,24 @@
 require 'rake'
 require 'rake/testtask'
 require 'rdoc/task'
+require 'open-uri'
 
 desc 'Default: run unit tests.'
 task :default => :test
+
+desc 'overwrite old files in data folder with latest'
+task :update_data_folder do
+  FileUtils.rm_rf(Dir.glob('data/*'))
+  ['Math.xml','ELA-Literacy.xml'].each do |filename|
+    url = "http://www.corestandards.org/#{filename}"
+    open("data/#{filename}", "wb") do |file|
+      puts "Pulling: #{url}"
+      open(url) do |uri|
+         file.write(uri.read)
+      end
+    end
+  end
+end
 
 desc 'Test the common_core plugin.'
 Rake::TestTask.new(:test) do |t|
