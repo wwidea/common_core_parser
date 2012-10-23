@@ -28,3 +28,5 @@ class ActiveSupport::TestCase
     end
   end
 end
+
+require 'mocha'

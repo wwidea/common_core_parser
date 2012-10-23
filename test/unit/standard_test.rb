@@ -3,84 +3,89 @@
 
 require 'test_helper'
 
-class StandardTest < ActiveSupport::TestCase
+module CommonCore
+  class StandardTest < ActiveSupport::TestCase
 
-  # ref_id
-  test "should return ref_id" do
-    assert_equal '823405101A0842988705A4755FDF0C73', math_standard.ref_id
-  end
-
-
-  # predecessor_ref_id
-  test "should return predecessor_ref_id" do
-    assert_equal 'DC3CA9D4920144bcBC0B5A4B6A5BFB23', math_standard.predecessor_ref_id
-  end
+    # ref_id
+    test "should return ref_id" do
+      assert_equal 'CA9EE2E34F384E95A5FA26769C5864B8', math_standard.ref_id
+    end
 
 
-  # code
-  test "should return code" do
-    assert_equal 'Mathematics.1.NBT.2.a', math_standard.code
-  end
+    # predecessor_ref_id
+    test "should return predecessor_ref_id" do
+      assert_equal '4F4106218F834258BCDDB7EB39806880', math_standard.predecessor_ref_id
+    end
 
 
-  # statement
-  test "should return statement" do
-    assert_equal '10 can be thought of as a bundle of ten ones—called a "ten".', math_standard.statement
-  end
+    # code
+    test "should return code" do
+      assert_equal 'CCSS.Math.Content.K.CC.A.1', math_standard.code
+    end
 
 
-  # grades
-  test "should return grades" do
-    assert_equal ['01'], math_standard.grades
-  end
-
-  test "should return multiple grades" do
-    assert_equal %w(09 10), ela_standard.grades
-  end
+    # statement
+    test "should return statement" do
+      assert_equal 'Count to 100 by ones and by tens.', math_standard.statement
+    end
 
 
-  # to_s
-  test "should return string representation of standard" do
-    assert_equal 'ref_id: 823405101A0842988705A4755FDF0C73, predecessor_ref_id: DC3CA9D4920144bcBC0B5A4B6A5BFB23, code: Mathematics.1.NBT.2.a, statement: 10 can be thought of as a bundle of ten ones—called a "ten"., grade: 01', math_standard.to_s
-  end
+    # grades
+    test "should return grades" do
+      assert_equal ['K'], math_standard.grades
+    end
+
+    test "should return multiple grades" do
+      assert_equal ["K", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"], ela_standard.grades
+    end
 
 
-  # valid?
-  test "should return true for valid?" do
-    assert_equal true, math_standard.valid?
-  end
-
-  test "should return false for valid? when statement is blank" do
-    math_standard.data.xpath('//Statements/Statement').first.inner_html = ''
-
-    assert_equal false, math_standard.valid?
-  end
+    # to_s
+    test "should return string representation of standard" do
+      assert_equal '<CommonCore::Standard ref_id: CA9EE2E34F384E95A5FA26769C5864B8, predecessor_ref_id: 4F4106218F834258BCDDB7EB39806880, code: CCSS.Math.Content.K.CC.A.1, statement: Count to 100 by ones and by tens., grades: K>', math_standard.to_s
+    end
 
 
-  # valid_grades?
-  test "should return true for valid_grades?" do
-    assert_equal true, math_standard.valid_grades?
-  end
+    # valid?
+    test "should return true for valid?" do
+      assert_equal true, math_standard.valid?
+    end
 
-  test "should return false for valid_grade? when out of range" do
-    math_standard.data.xpath('//Statements/Statement').first.inner_html = ''
-  end
+    test "should return false for valid? when statement is blank" do
+      saved_math_standard = math_standard
+      saved_math_standard.stubs(:statement).returns('')
+      assert_equal true, saved_math_standard.statement.blank?
+      assert_equal false, saved_math_standard.valid?
+    end
 
-private
 
-  def math_standard
-    CommonCore::Standard.new(math_standard_xml)
-  end
+    # valid_grades?
+    test "should return true for valid_grades?" do
+      assert_equal true, math_standard.valid_grades?
+    end
 
-  def math_standard_xml
-    @math_standard_xml ||= Nokogiri::XML(File.read(File.expand_path('../../data/math_standard.xml', __FILE__)))
-  end
+    #test "should return false for valid_grade? when out of range" do
+    #  math_standard.data.xpath('//Statements/Statement').first.inner_html = ''
+    #end
 
-  def ela_standard
-    CommonCore::Standard.new(ela_standard_xml)
-  end
+    #######
+    private
+    #######
 
-  def ela_standard_xml
-    @ela_standard_xml ||= Nokogiri::XML(File.read(File.expand_path('../../data/ela_standard.xml', __FILE__)))
+    def math_standard
+      Standard.new(math_standard_xml)
+    end
+
+    def math_standard_xml
+      @math_standard_xml ||= Nokogiri::XML(File.read(DATA_PATH+'/Math.xml')).xpath('//LearningStandardItem').first
+    end
+
+    def ela_standard
+      Standard.new(ela_standard_xml)
+    end
+
+    def ela_standard_xml
+      @ela_standard_xml ||= Nokogiri::XML(File.read(DATA_PATH+'/ELA-Literacy.xml')).xpath('//LearningStandardItem').first
+    end
   end
 end

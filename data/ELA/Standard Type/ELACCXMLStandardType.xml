@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LearningStandardItem RefId="91C6F4A475F04d768FAAF904EA4DB40C" xml:lang="en">
+  <StandardHierarchyLevel>
+    <Number>2</Number>
+    <Description>Standard Type</Description>
+  </StandardHierarchyLevel>
+  <StatementCodes>
+    <StatementCode>ELA.CC</StatementCode>
+  </StatementCodes>
+  <Statements>
+    <Statement>ELA | Grade-Specific Standards</Statement>
+  </Statements>
+  <GradeLevels>
+    <GradeLevel>6-12</GradeLevel>
+  </GradeLevels>
+  <SubjectArea>ELA</SubjectArea>
+  <DocumentStatus>Adopted</DocumentStatus>
+  <DocumentDate>24052011</DocumentDate>
+  <LearningStandardDocumentRefId>0FAC40650F514a459951A657F942B845</LearningStandardDocumentRefId>
+</LearningStandardItem>

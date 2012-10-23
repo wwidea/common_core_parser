@@ -8,7 +8,6 @@ task :default => :test
 
 desc 'overwrite old files in data folder with latest'
 task :update_data_folder do
-  FileUtils.rm_rf(Dir.glob('data/*'))
   ['Math.xml','ELA-Literacy.xml'].each do |filename|
     url = "http://www.corestandards.org/#{filename}"
     open("data/#{filename}", "wb") do |file|
