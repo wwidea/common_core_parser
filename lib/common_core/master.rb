@@ -30,11 +30,18 @@ module CommonCore
           end
         end
       end
+      reunite_children_with_parents
     end
 
     #######
     private
     #######
+
+    def reunite_children_with_parents
+      elements.each_pair do |ref_id,element|
+        elements[element.parent_ref_id].add_child(element) unless elements[element.parent_ref_id].nil?
+      end
+    end
 
     def get_class_from_element(xml_element)
       hierarcy_level_description = xml_element.xpath('./StandardHierarchyLevel/description').first || xml_element.xpath('./StandardHierarchyLevel/Description').first

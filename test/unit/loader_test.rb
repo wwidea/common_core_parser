@@ -70,7 +70,9 @@ module CommonCore
     end
 
     test "should load all xml files for math" do
-      @master.load_elements_from_paths(DATA_PATH+'/Mathematics/**/*.xml')
+      @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/Mathematics/**/*.xml')
+      assert_equal 392, @master.standards.keys.length
+      assert_equal 124, @master.components.keys.length
       assert_equal 15, @master.subject_grades.keys.length
       assert_equal 65, @master.domains.keys.length
       assert_equal 145, @master.clusters.keys.length
@@ -107,5 +109,13 @@ module CommonCore
       end
     end
 
+    test "should load all xml files for math and reuinite parents with children" do
+      @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/Mathematics/**/*.xml')
+      orphan_elements = []
+      @master.elements.each do |key,element|
+        orphan_elements << element if (element.parent_ref_id and element.parent.nil?)
+      end
+      assert_equal(0,orphan_elements.size, orphan_elements.map{|element| "#{element.class}:#{element.ref_id}"})
+    end
   end
 end

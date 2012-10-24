@@ -8,7 +8,7 @@ module CommonCore
 
     # to_s
     test "should return string representation of domain" do
-      assert_equal '<CommonCore::Domain ref_id: 4246B738DA224018B6D20C12F9ED0073, predecessor_ref_id: C235350E091D437FBE2794CE93FBE949, code: Mathematics.1.G, statement: Geometry, grades: 01>', math_domain.to_s
+      assert_equal '<CommonCore::Domain ref_id: 4246B738DA224018B6D20C12F9ED0073, parent_ref_id: C235350E091D437FBE2794CE93FBE949, code: Mathematics.1.G, statement: Geometry, grades: 01>', math_domain.to_s
     end
 
     # valid?
@@ -24,7 +24,7 @@ module CommonCore
     end
 
     test 'should return repdecessor ref id' do
-      assert_equal('C235350E091D437FBE2794CE93FBE949',math_domain.predecessor_ref_id)
+      assert_equal('C235350E091D437FBE2794CE93FBE949',math_domain.parent_ref_id)
     end
 
   private

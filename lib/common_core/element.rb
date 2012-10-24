@@ -2,48 +2,59 @@ module CommonCore
   class Element
 
     attr_accessor :data
+    attr_reader :children
 
     def initialize(xmldoc)
-      xmldoc = Nokogiri::XML(xmldoc) unless xmldoc.is_a?(Nokogiri::XML::Element)
-      # ensure LearningStandardItem root is present
       raise(ArgumentError, "Not a LearningStandardItem\n #{xmldoc}") unless xmldoc.name == 'LearningStandardItem'
-      self.data = xmldoc
+      @data = xmldoc
+      @children = {}
     end
 
     def to_s
-      "<#{self.class} ref_id: #{ref_id}, predecessor_ref_id: #{predecessor_ref_id}, code: #{code}, statement: #{statement}, grades: #{grades.join(',')}>"
+      "<#{self.class} ref_id: #{ref_id}, parent_ref_id: #{parent_ref_id}, code: #{code}, statement: #{statement}, grades: #{grades.join(',')}>"
     end
 
     def ref_id
       case
-        when data.attributes['RefID'] then data.attributes['RefID'].value
-        when data.attributes['RefId'] then data.attributes['RefId'].value
+        when data.attributes['RefID'] then data.attributes['RefID'].value.strip
+        when data.attributes['RefId'] then data.attributes['RefId'].value.strip
       end
     end
 
-    def predecessor_ref_id
+    def parent
+      @parent ||= Master.instance.elements[parent_ref_id]
+    end
 
+    def parent_ref_id
+      return @parent_ref_id if @parent_ref_id
+
+      #new file format
       data.xpath('./RelatedLearningStandardItems/LearningStandardItemRefId').each do |lsiri|
-        return lsiri.text if lsiri.attributes['RelationshipType'].value == 'childOf'
+        return @parent_ref_id = lsiri.text.strip if lsiri.attributes['RelationshipType'].value == 'childOf'
       end
 
+      #old file format
       data.xpath('./PredecessorItems/LearningStandardItemRefId').each do |lsiri|
-        return lsiri.text
+        return @parent_ref_id = lsiri.text.strip
       end
 
       return nil
     end
 
+    def add_child(element)
+      children[element.ref_id] = element
+    end
+
     def code
-      data.xpath('./StatementCodes/StatementCode').first.text
+      @code ||= data.xpath('./StatementCodes/StatementCode').first.text
     end
 
     def statement
-      data.xpath('./Statements/Statement').first.text.strip
+      @statement ||= data.xpath('./Statements/Statement').first.text.strip
     end
 
     def grades
-      data.xpath('./GradeLevels/GradeLevel').map(&:text).map {|string| string.match(/[A-Z]/) ? string : sprintf('%02d',string.to_i) }
+      @grades ||= data.xpath('./GradeLevels/GradeLevel').map(&:text).map {|string| string.match(/[A-Z]/) ? string : sprintf('%02d',string.to_i) }
     end
 
     def valid_grades?
