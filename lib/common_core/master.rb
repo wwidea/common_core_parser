@@ -14,12 +14,6 @@ module CommonCore
       @standard_types = {}
     end
 
-    def add_element(element)
-      @elements[element.ref_id] = element
-      instance_variable_name = "@#{element.class.name.sub(/^.*::/, '').underscore.pluralize}"
-      instance_variable_get(instance_variable_name)[element.ref_id] = element
-    end
-
     def load_elements_from_paths(*paths)
       paths.flatten.each do |path|
         Dir.glob(path).map do |filename|
@@ -30,12 +24,29 @@ module CommonCore
           end
         end
       end
+      correct_bad_data
       reunite_children_with_parents
+    end
+
+    def add_element(element)
+      @elements[element.ref_id] = element
+      instance_variable_name = "@#{element.class.name.sub(/^.*::/, '').underscore.pluralize}"
+      instance_variable_get(instance_variable_name)[element.ref_id] = element
+    end
+
+    def delete_element(element)
+      @elements.delete(element.ref_id)
+      instance_variable_name = "@#{element.class.name.sub(/^.*::/, '').underscore.pluralize}"
+      instance_variable_get(instance_variable_name).delete(element.ref_id)
     end
 
     #######
     private
     #######
+
+    def correct_bad_data
+      BrokenDataCorrector.run
+    end
 
     def reunite_children_with_parents
       elements.each_pair do |ref_id,element|

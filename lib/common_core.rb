@@ -9,6 +9,8 @@ require 'active_support/core_ext'
 
 require File.expand_path('../common_core', __FILE__)
 require File.expand_path('../common_core/master',  __FILE__)
+require File.expand_path('../common_core/broken_data_corrector',  __FILE__)
+
 require File.expand_path('../common_core/element',  __FILE__)
 require File.expand_path('../common_core/elements/component',  __FILE__)
 require File.expand_path('../common_core/elements/standard',  __FILE__)

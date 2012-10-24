@@ -15,7 +15,7 @@ module CommonCore
     end
 
     def ref_id
-      case
+      @ref_id ||= case
         when data.attributes['RefID'] then data.attributes['RefID'].value.strip
         when data.attributes['RefId'] then data.attributes['RefId'].value.strip
       end
@@ -46,7 +46,7 @@ module CommonCore
     end
 
     def code
-      @code ||= data.xpath('./StatementCodes/StatementCode').first.text
+      @code ||= data.xpath('./StatementCodes/StatementCode').first.text.strip
     end
 
     def statement
