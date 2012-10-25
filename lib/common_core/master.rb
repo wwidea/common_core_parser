@@ -30,7 +30,7 @@ module CommonCore
 
     def add_element(element)
       return if element.illigit?
-      puts "#{element} has same ref_id as #{@elements[element.ref_id]}" if @elements[element.ref_id]
+      raise "#{element} has same ref_id as #{@elements[element.ref_id]}" if @elements[element.ref_id]
       @elements[element.ref_id] = element
       instance_variable_name = "@#{element.class.name.sub(/^.*::/, '').underscore.pluralize}"
       instance_variable_get(instance_variable_name)[element.ref_id] = element

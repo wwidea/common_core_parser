@@ -14,7 +14,7 @@ module CommonCore
     # math_standards
     test "should load standards from xml" do
       @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/ELA-Literacy.xml')
-      assert_equal 966, @master.standards.keys.length
+      assert_equal 967, @master.standards.keys.length
       @master.standards.each do |key,standard|
         assert standard.is_a?(Standard), "#{standard} expected to be a Standard"
         assert standard.valid?, "#{standard.error_message} - #{standard}"
@@ -71,11 +71,11 @@ module CommonCore
 
     test "should load all xml files for math" do
       @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/Mathematics/**/*.xml')
-      assert_equal 392, @master.standards.keys.length
+      assert_equal 393, @master.standards.keys.length
       assert_equal 124, @master.components.keys.length
       assert_equal 15, @master.subject_grades.keys.length
       assert_equal 65, @master.domains.keys.length
-      assert_equal 145, @master.clusters.keys.length
+      assert_equal 148, @master.clusters.keys.length
       @master.subject_grades.each do |key,subject_grade|
         assert subject_grade.is_a?(SubjectGrade), "#{subject_grade} expected to be a SubjectGrade"
         assert subject_grade.valid?, "#{subject_grade} - #{subject_grade.error_message}"
@@ -128,7 +128,7 @@ module CommonCore
         next if standard.parent_ref_id == 'INTENTIONALLYORPHANED'
         mismatched_standards << standard
       end
-      assert_equal(0,mismatched_standards.size, mismatched_standards.map{|standard| "#{standard.ref_id}:#{standard.parent.class}:#{standard.parent_ref_id}"})
+      assert_equal(0,mismatched_standards.size, mismatched_standards.map{|standard| "#{standard.ref_id}::#{standard.code}:#{standard.parent.class}:#{standard.parent_ref_id}"})
     end
 
     test 'languange arts standards should have a cluster for a parent' do
