@@ -26,9 +26,9 @@ task :generate_csv_standards_file do
   master = CommonCore::Master.instance
   master.load_elements_from_paths(CommonCore::DATA_PATH+'/**/*.xml')
   CSV.open("standards.csv", "wb") do |csv|
-    csv << ['Subject','Domain','Cluster','Number/Code','Grades','Text/Statement','RefID']
+    csv << ['RefID','SubjectGrade','Domain','Cluster','Number/Code','Grades','Text/Statement']
     master.standards.each do |ref_id,standard|
-      csv << ["#{standard.subject.try(:statement)}","#{standard.domain.try(:statement)}","#{standard.cluster.try(:statement)}","#{standard.code}","#{standard.grades}","#{standard.try(:statement)}","#{standard.ref_id}"]
+      csv << [standard.ref_id,standard.subject.try(:code),standard.domain.try(:statement),standard.cluster.try(:statement),standard.code,standard.grades,standard.try(:statement)]
     end
   end
 end
