@@ -28,7 +28,9 @@ task :generate_csv_standards_file do
   CSV.open("standards.csv", "wb") do |csv|
     csv << ['RefID','SubjectGrade','Domain','Cluster','Number/Code','Grades','Text/Statement']
     master.standards.each do |ref_id,standard|
-      csv << [standard.ref_id,standard.subject.try(:code),standard.domain.try(:statement),standard.cluster.try(:statement),standard.code,standard.grades,standard.try(:statement)]
+      domain_string = standard.domain.try(:statement) || ''
+      domain_string << standard.parent_ref_id if standard.parent_ref_id == 'INTENTIONALLYORPHANED'
+      csv << [standard.ref_id,standard.subject.try(:code),domain_string,standard.cluster.try(:statement),standard.code,standard.grades,standard.try(:statement)]
     end
   end
 end
