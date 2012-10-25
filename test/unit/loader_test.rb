@@ -120,26 +120,37 @@ module CommonCore
       assert_equal(0,orphan_elements.size, orphan_elements.map{|element| "#{element.class}:#{element.ref_id}"})
     end
 
-    test 'math standards should have a cluster for a parent' do
+    test 'math standards should have a sane hierarchy' do
       @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/Mathematics/**/*.xml')
-      mismatched_standards = []
+      insane_standards = []
       @master.standards.each do |key,standard|
-        next if standard.parent.is_a?(CommonCore::Cluster)
         next if standard.parent_ref_id == 'INTENTIONALLYORPHANED'
-        mismatched_standards << standard
+        insanity_flag_raised = false
+
+        insanity_flag_raised = true if standard.children.any? { |ref_id,child| ! child.is_a?(CommonCore::Component) }
+        insanity_flag_raised = true unless standard.parent.is_a?(CommonCore::Cluster)
+        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.is_a?(CommonCore::Domain)
+        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.parent.is_a?(CommonCore::SubjectGrade)
+
+        insane_standards << standard if insanity_flag_raised
       end
-      assert_equal(0,mismatched_standards.size, mismatched_standards.map{|standard| "#{standard.ref_id}::#{standard.code}:#{standard.parent.class}:#{standard.parent_ref_id}"})
+      assert_equal(0,insane_standards.size, insane_standards.map{|standard| "#{standard.ref_id}::#{standard.code}:#{standard.parent.class}:#{standard.parent_ref_id}"})
     end
 
-    test 'languange arts standards should have a cluster for a parent' do
+    test 'languange arts standards should have sane hierarchy' do
       @master.load_elements_from_paths(DATA_PATH+'/ELA-Literacy.xml',DATA_PATH+'/ELA/**/*.xml')
-      mismatched_standards = []
+      insane_standards = []
       @master.standards.each do |key,standard|
-        next if standard.parent.is_a?(CommonCore::Domain)
         next if standard.parent_ref_id == 'INTENTIONALLYORPHANED'
-        mismatched_standards << standard
+        insanity_flag_raised = false
+
+        insanity_flag_raised = true if standard.children.any? { |ref_id,child| ! child.is_a?(CommonCore::Component) }
+        insanity_flag_raised = true unless standard.parent.is_a?(CommonCore::Domain)
+        insanity_flag_raised = true unless standard.parent.parent.is_a?(CommonCore::SubjectGrade)
+
+        insane_standards << standard if insanity_flag_raised
       end
-      assert_equal(0,mismatched_standards.size, mismatched_standards.map{|standard| "#{standard} === #{standard.parent_ref_id.blank?}=== #{standard.code.match(/CCSS\.ELA\-Literacy\.L\.3/)}"})
+      assert_equal(0,insane_standards.size, insane_standards.map{|standard| "#{standard} === #{standard.parent_ref_id.blank?}=== #{standard.code.match(/CCSS\.ELA\-Literacy\.L\.3/)}"})
     end
   end
 end
