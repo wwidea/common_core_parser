@@ -128,7 +128,7 @@ module CommonCore
         insanity_flag_raised = false
 
         insanity_flag_raised = true if standard.children.any? { |ref_id,child| ! child.is_a?(CommonCore::Component) }
-        insanity_flag_raised = true unless standard.parent.is_a?(CommonCore::Cluster)
+        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.is_a?(CommonCore::Cluster)
         insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.is_a?(CommonCore::Domain)
         insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.parent.is_a?(CommonCore::SubjectGrade)
 
@@ -145,8 +145,8 @@ module CommonCore
         insanity_flag_raised = false
 
         insanity_flag_raised = true if standard.children.any? { |ref_id,child| ! child.is_a?(CommonCore::Component) }
-        insanity_flag_raised = true unless standard.parent.is_a?(CommonCore::Domain)
-        insanity_flag_raised = true unless standard.parent.parent.is_a?(CommonCore::SubjectGrade)
+        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.is_a?(CommonCore::Domain)
+        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.is_a?(CommonCore::SubjectGrade)
 
         insane_standards << standard if insanity_flag_raised
       end
