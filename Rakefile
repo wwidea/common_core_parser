@@ -2,6 +2,8 @@ require 'rake'
 require 'rake/testtask'
 require 'rdoc/task'
 require 'open-uri'
+require 'csv'
+require File.expand_path('../lib/common_core', __FILE__)
 
 desc 'Default: run unit tests.'
 task :default => :test
@@ -15,6 +17,18 @@ task :update_data_folder do
       open(url) do |uri|
          file.write(uri.read)
       end
+    end
+  end
+end
+
+desc 'generate csv standards file'
+task :generate_csv_standards_file do
+  master = CommonCore::Master.instance
+  master.load_elements_from_paths(CommonCore::DATA_PATH+'/**/*.xml')
+  CSV.open("standards.csv", "wb") do |csv|
+    csv << ['Subject','Domain','Cluster','Number/Code','Grades','Text/Statement','RefID']
+    master.standards.each do |ref_id,standard|
+      csv << ["#{standard.subject.try(:statement)}","#{standard.domain.try(:statement)}","#{standard.cluster.try(:statement)}","#{standard.code}","#{standard.grades}","#{standard.try(:statement)}","#{standard.ref_id}"]
     end
   end
 end

@@ -14,5 +14,18 @@ module CommonCore
     def error_message
       errors.join(',')
     end
+
+    def cluster
+      @cluster ||= self.parent.is_a?(CommonCore::Cluster) ? self.parent : nil
+    end
+
+    def domain
+      @domain ||= cluster ? cluster.parent : self.parent
+    end
+
+    def subject
+      @subject ||= domain.try(:parent)
+    end
+
   end
 end
