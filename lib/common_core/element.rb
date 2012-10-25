@@ -15,10 +15,7 @@ module CommonCore
     end
 
     def ref_id
-      @ref_id ||= case
-        when data.attributes['RefID'] then data.attributes['RefID'].value.strip
-        when data.attributes['RefId'] then data.attributes['RefId'].value.strip
-      end
+      @ref_id ||= patch_duplicated_ref_ids((data.attributes['RefID'] || data.attributes['RefId']).value.strip)
     end
 
     def parent
@@ -30,12 +27,12 @@ module CommonCore
 
       #new file format
       data.xpath('./RelatedLearningStandardItems/LearningStandardItemRefId').each do |lsiri|
-        return @parent_ref_id = lsiri.text.strip if lsiri.attributes['RelationshipType'].value == 'childOf'
+        return @parent_ref_id = patch_duplicated_parent_ref_ids(lsiri.text.strip) if lsiri.attributes['RelationshipType'].value == 'childOf'
       end
 
       #old file format
       data.xpath('./PredecessorItems/LearningStandardItemRefId').each do |lsiri|
-        return @parent_ref_id = lsiri.text.strip
+        return @parent_ref_id = patch_duplicated_parent_ref_ids(lsiri.text.strip)
       end
 
       return nil
@@ -71,6 +68,51 @@ module CommonCore
 
     def error_message
       errors.join(',')
+    end
+
+    def illigit?
+      return false unless ref_id.blank?
+      case
+        when (ref_id.blank? and statement.match(/not applicable/)) then true
+        when (ref_id.blank? and statement.match(/begins in grade [0-9]+/)) then true
+        else false
+      end
+    end
+
+    #######
+    private
+    #######
+
+    # There are a couple cases where an ELA Standard and Domain are sharing
+    # the same ref_id, and three cases where two clusters are sharing the same
+    # ref_id. This patch corrects the ref_ids to remove conflucts.
+    # See also patch_duplicated_parent_ref_ids()
+    def patch_duplicated_ref_ids(candidate_ref_id)
+      flagged_standard_ref_ids = ['7CB154907B5743c7B97BFCFF452D7977','F053D3437D1E4338A2C18B25DACBED85']
+      flagged_cluster_ref_ids = ['B1AC98EADE4145689E70EEEBD9B8CC18','834B17E279C64263AA83F7625F5D2993','91FABAB899814C55851003A0EE98F8FB']
+      if flagged_standard_ref_ids.include?(candidate_ref_id) and self.is_a?(CommonCore::Standard)
+        return "Standard:DUPLICATEDREF_ID:#{candidate_ref_id}"
+      elsif flagged_cluster_ref_ids.include?(candidate_ref_id) and self.is_a?(CommonCore::Cluster)
+        return "Cluster:DUPLICATEDREF_ID:#{candidate_ref_id}:#{self.code}"
+      else
+        return candidate_ref_id
+      end
+    end
+
+    # There are a couple cases where an ELA Standard and Domain are sharing
+    # the same ref_id, and three cases where two clusters are sharing the same
+    # ref_id. This patch children's parent_ref_ids so that they still point to
+    # the correct parent.
+    # See also patch_duplicated_ref_ids()
+    def patch_duplicated_parent_ref_ids(candidate_parent_ref_id)
+      flagged_cluster_ref_ids = ['B1AC98EADE4145689E70EEEBD9B8CC18','834B17E279C64263AA83F7625F5D2993','91FABAB899814C55851003A0EE98F8FB']
+      if candidate_parent_ref_id == 'F053D3437D1E4338A2C18B25DACBED85' and self.is_a?(CommonCore::Component)
+        return "Standard:DUPLICATEDREF_ID:#{candidate_parent_ref_id}"
+      elsif flagged_cluster_ref_ids.include?(candidate_parent_ref_id) and self.is_a?(CommonCore::Standard) and self.code.match(/\.K\.G\./)
+        return "Cluster:DUPLICATEDREF_ID:#{candidate_parent_ref_id}:Mathematics.K.G.1"
+      else
+        return candidate_parent_ref_id
+      end
     end
   end
 end

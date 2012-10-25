@@ -12,21 +12,21 @@ module CommonCore
     end
 
     # math_standards
-    test "should load math standards from xml" do
-      @master.load_elements_from_paths(DATA_PATH+'/Math.xml')
-      assert_equal 392, @master.standards.keys.length
+    test "should load standards from xml" do
+      @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/ELA-Literacy.xml')
+      assert_equal 966, @master.standards.keys.length
       @master.standards.each do |key,standard|
         assert standard.is_a?(Standard), "#{standard} expected to be a Standard"
-        assert standard.valid?, standard.error_message
+        assert standard.valid?, "#{standard.error_message} - #{standard}"
       end
     end
 
     test "should load standard components from xml" do
-      @master.load_elements_from_paths(DATA_PATH+'/Math.xml')
-      assert_equal 124, @master.components.keys.length
+      @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/ELA-Literacy.xml')
+      assert_equal 569, @master.components.keys.length
       @master.components.each do |key,component|
         assert component.is_a?(Component), "#{component} expected to be a Component"
-        assert component.valid?, component.error_message
+        assert component.valid?, "#{component.error_message} - #{component}"
       end
     end
 
@@ -109,13 +109,37 @@ module CommonCore
       end
     end
 
-    test "should load all xml files for math and reuinite parents with children" do
-      @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/Mathematics/**/*.xml')
+    test "should load all xml files for math and reunite parents with children" do
+      @master.load_elements_from_paths(DATA_PATH+'/**/*.xml')
       orphan_elements = []
       @master.elements.each do |key,element|
-        orphan_elements << element if (element.parent_ref_id and element.parent.nil?)
+        next unless (element.parent_ref_id and element.parent.nil?)
+        next if element.parent_ref_id == 'INTENTIONALLYORPHANED'
+        orphan_elements << element
       end
       assert_equal(0,orphan_elements.size, orphan_elements.map{|element| "#{element.class}:#{element.ref_id}"})
+    end
+
+    test 'math standards should have a cluster for a parent' do
+      @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/Mathematics/**/*.xml')
+      mismatched_standards = []
+      @master.standards.each do |key,standard|
+        next if standard.parent.is_a?(CommonCore::Cluster)
+        next if standard.parent_ref_id == 'INTENTIONALLYORPHANED'
+        mismatched_standards << standard
+      end
+      assert_equal(0,mismatched_standards.size, mismatched_standards.map{|standard| "#{standard.ref_id}:#{standard.parent.class}:#{standard.parent_ref_id}"})
+    end
+
+    test 'languange arts standards should have a cluster for a parent' do
+      @master.load_elements_from_paths(DATA_PATH+'/ELA-Literacy.xml',DATA_PATH+'/ELA/**/*.xml')
+      mismatched_standards = []
+      @master.standards.each do |key,standard|
+        next if standard.parent.is_a?(CommonCore::Domain)
+        next if standard.parent_ref_id == 'INTENTIONALLYORPHANED'
+        mismatched_standards << standard
+      end
+      assert_equal(0,mismatched_standards.size, mismatched_standards.map{|standard| "#{standard} === #{standard.parent_ref_id.blank?}=== #{standard.code.match(/CCSS\.ELA\-Literacy\.L\.3/)}"})
     end
   end
 end

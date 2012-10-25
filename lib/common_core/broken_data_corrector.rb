@@ -27,6 +27,32 @@ module CommonCore
         return unless (element.is_a?(CommonCore::Standard) and ref_id_map.keys.include?(element.parent_ref_id))
         element.instance_variable_set(:@parent_ref_id,ref_id_map[element.parent_ref_id])
       end
+
+      # The "Standards for Mathematical Practice" point to each other instead of
+      # a cluster or domain.  WTF? Let's just orphanize them for now.
+      def correct_parent_ref_id_for_practice_standards(element)
+        return unless (element.is_a?(CommonCore::Standard) and element.code.match(/CCSS\.Math\.Practice\.MP[0-9]+/))
+        element.instance_variable_set(:@parent_ref_id,'INTENTIONALLYORPHANED')
+      end
+
+      # The ELA "Anchor Standards" don't have a parent in the xml.
+      # Flagging as intentionally orphaned until it gets corrected.
+      def correct_ela_anchor_standards(element)
+        return unless (element.is_a?(CommonCore::Standard) and element.parent_ref_id.blank? and element.code.match(/CCSS\.ELA\-Literacy\.CCRA.[RWSL]+\.[0-9]+/))
+        element.instance_variable_set(:@parent_ref_id,'INTENTIONALLYORPHANED')
+      end
+
+      # The ELA Grade 3 "Language" Standards don't have a parent in the xml.
+      # Flagging as intentionally orphaned until it gets corrected.
+      def correct_ela_grade_3_language_standards(element)
+        if element.ref_id == 'F053D3437D1E4338A2C18B25DACBED85'
+          puts element
+          puts element.code.match(/CCSS\.ELA\-Literacy\.L\./)
+        end
+
+        return unless (element.is_a?(CommonCore::Standard) and element.parent_ref_id.blank? and element.code.match(/CCSS\.ELA\-Literacy\.L\.3/))
+        element.instance_variable_set(:@parent_ref_id,'INTENTIONALLYORPHANED')
+      end
     end
 
   end
