@@ -20,7 +20,11 @@ module CommonCore
         flagged_standard_domain_ref_ids = ['7CB154907B5743c7B97BFCFF452D7977','F053D3437D1E4338A2C18B25DACBED85']
         flagged_cluster_ref_ids = ['B1AC98EADE4145689E70EEEBD9B8CC18','834B17E279C64263AA83F7625F5D2993','91FABAB899814C55851003A0EE98F8FB']
         flagged_duplicated_stadard_ref_ids = ['FBCBB7C696FE475695920CA622B1C857']
-        if flagged_standard_domain_ref_ids.include?(candidate_ref_id) and element.is_a?(CommonCore::Standard)
+        if candidate_ref_id == 'F053D3437D1E4338A2C18B25DACBED85' and element.is_a?(CommonCore::Standard)
+          return "Standard:DUPLICATEDREF_ID:#{candidate_ref_id}"
+        elsif candidate_ref_id == 'F053D3437D1E4338A2C18B25DACBED85' and element.is_a?(CommonCore::Domain)
+          return "Domain:DUPLICATEDREF_ID:#{candidate_ref_id}"
+        elsif flagged_standard_domain_ref_ids.include?(candidate_ref_id) and element.is_a?(CommonCore::Standard)
           return "Standard:DUPLICATEDREF_ID:#{candidate_ref_id}"
         elsif flagged_cluster_ref_ids.include?(candidate_ref_id) and element.is_a?(CommonCore::Cluster)
           return "Cluster:DUPLICATEDREF_ID:#{candidate_ref_id}:#{element.code}"
@@ -36,6 +40,8 @@ module CommonCore
         flagged_cluster_ref_ids = ['B1AC98EADE4145689E70EEEBD9B8CC18','834B17E279C64263AA83F7625F5D2993','91FABAB899814C55851003A0EE98F8FB']
         if candidate_parent_ref_id == 'F053D3437D1E4338A2C18B25DACBED85' and element.is_a?(CommonCore::Component)
           return "Standard:DUPLICATEDREF_ID:#{candidate_parent_ref_id}"
+        elsif candidate_parent_ref_id == 'F053D3437D1E4338A2C18B25DACBED85' and element.is_a?(CommonCore::Standard)
+          return "Domain:DUPLICATEDREF_ID:#{candidate_parent_ref_id}"
         elsif flagged_cluster_ref_ids.include?(candidate_parent_ref_id) and element.is_a?(CommonCore::Standard) and element.code.match(/\.K\.G\./)
           return "Cluster:DUPLICATEDREF_ID:#{candidate_parent_ref_id}:Mathematics.K.G.1"
         elsif flagged_cluster_ref_ids.include?(candidate_parent_ref_id) and element.is_a?(CommonCore::Standard) and element.code == 'CCSS.Math.Content.K.MD.B.3'
@@ -86,10 +92,10 @@ module CommonCore
       end
 
       # The ELA Grade 3 "Language" Standards don't have a parent in the xml.
-      # Flagging as intentionally orphaned until it gets corrected.
+      # Point them to the correct Domain
       def correct_ela_grade_3_language_standards(element)
         return unless (element.is_a?(CommonCore::Standard) and element.parent_ref_id.blank? and element.code.match(/CCSS\.ELA\-Literacy\.L\.3/))
-        element.instance_variable_set(:@parent_ref_id,'INTENTIONALLYORPHANED')
+        element.instance_variable_set(:@parent_ref_id,patch_duplicated_parent_ref_ids(element,'F053D3437D1E4338A2C18B25DACBED85'))
       end
     end
 
