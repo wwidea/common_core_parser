@@ -51,7 +51,7 @@ module CommonCore
     end
 
     def grades
-      @grades ||= data.xpath('./GradeLevels/GradeLevel').map(&:text).map {|string| string.match(/[A-Z]/) ? string : sprintf('%02d',string.to_i) }
+      @grades ||= data.xpath('./GradeLevels/GradeLevel').map(&:text).map {|string| convert_grade_string_to_grades(string) }.flatten
     end
 
     def valid_grades?
@@ -79,5 +79,18 @@ module CommonCore
       end
     end
 
+    #######
+    private
+    #######
+
+    def convert_grade_string_to_grades(string)
+      grades = case
+        when string == 'K-12' then ['K',*(1..12)]
+        when string == 'HS' then [*(9..12)]
+        when string.match(/([0-9]+)-([0-9]+)/) then [*($1..$2)]
+        else [string]
+      end
+      grades.map{|string| string == 'K' ? string : sprintf('%02d',string.to_i) }
+    end
   end
 end

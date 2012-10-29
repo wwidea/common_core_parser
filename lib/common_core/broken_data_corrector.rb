@@ -97,6 +97,75 @@ module CommonCore
         return unless (element.is_a?(CommonCore::Standard) and element.parent_ref_id.blank? and element.code.match(/CCSS\.ELA\-Literacy\.L\.3/))
         element.instance_variable_set(:@parent_ref_id,patch_duplicated_parent_ref_ids(element,'F053D3437D1E4338A2C18B25DACBED85'))
       end
+
+      def correct_unnecessarily_unicoded_characters(element)
+        # http://www.htmlescape.net/unicode_chart_general_punctuation.html
+        # http://www.htmlescape.net/unicode_chart_miscellaneous_symbols.html
+        element.instance_variable_set(:@statement,element.statement.gsub(/\u2013/,%q{-})) # &#8211;
+        element.instance_variable_set(:@statement,element.statement.gsub(/\u2019/,%q{'})) # &#8217;
+        element.instance_variable_set(:@statement,element.statement.gsub(/\u2020/,%q{"})) # &#8220;
+        element.instance_variable_set(:@statement,element.statement.gsub(/\u2021/,%q{"})) # &#8221;
+        element.instance_variable_set(:@statement,element.statement.gsub(/\u2605/,%q{*})) # &#9733;
+      end
+
+      # Math.xml contains a lot of unnecessarily escaped tags.
+      def correct_unncessarily_escaped_html_tags(element)
+        statement = element.statement
+        [:sup, :i].each do |tag|
+          statement.gsub!(/&lt;#{tag}&gt;/,%Q{<#{tag}>})
+          statement.gsub!(/&lt;\/#{tag}&gt;/,%Q{</#{tag}>})
+        end
+        element.instance_variable_set(:@statement,statement)
+      end
+
+      # One ELA standard has it's own RefID (currently 32D9C8830A6C4fd5B715A1DFFC4D4BA4) set as it's code.
+      def correct_literacy_rh_11_12_1_code(element)
+        if (element.ref_id == '32D9C8830A6C4fd5B715A1DFFC4D4BA4' or element.parent_ref_id == 'F9877ECD38D8432185F96C5EC5A050AF') and element.statement.match('^Cite specific textual evidence')
+          element.instance_variable_set(:@code,'CCSS.ELA-Literacy.RH.11-12.1')
+        end
+      end
+
+      # Many standards contain html tags that are closed at the beginning of the following standard.
+      def correct_unclosed_html_tags(element)
+        [:i, :sup].each do |tag|
+          strip_stray_close_tags(element,tag)
+          append_missing_close_tags(element,tag)
+        end
+      end
+
+
+
+
+
+
+
+      ######################################################################################
+
+      def strip_stray_close_tags(element,tag)
+        if starts_with_close?(element,tag)
+          element.instance_variable_set(:@statement,element.statement.sub(/^<\/#{tag}>/,''))
+        end
+      end
+
+      def append_missing_close_tags(element,tag)
+        if more_opens_than_closes?(element,tag)
+          element.instance_variable_set(:@statement,"#{element.statement}</#{tag}>")
+        end
+      end
+
+      def starts_with_close?(element,tag)
+        element.statement.match(/^<\/#{tag}>/)
+      end
+
+
+      def more_opens_than_closes?(element,tag)
+        opens = element.statement.match(/<#{tag}>/)
+        closes = element.statement.match(/<\/#{tag}>/)
+        return false if opens.nil?
+        return true if closes.nil? or (opens.size == closes.size + 1)
+        raise "too many unclosed open <#{tag}> tags to deal with" if opens.size > closes.size + 1 # just in case this becomes an issue in the future so it can be identified immediately
+        return false
+      end
     end
 
   end

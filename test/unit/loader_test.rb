@@ -152,5 +152,30 @@ module CommonCore
       end
       assert_equal(0,insane_standards.size, insane_standards.map{|standard| "#{standard} === #{standard.parent_ref_id.blank?}=== #{standard.code.match(/CCSS\.ELA\-Literacy\.L\.3/)}"})
     end
+
+    test 'elements should never have unclosed html tags or start with a closing html tag' do
+      @master.load_elements_from_paths(DATA_PATH+'/**/*.xml')
+      failing_elements = []
+      @master.elements.each do |key,element|
+        failing_elements << element if element.statement.match(/^<\//)
+        failing_elements << element if has_unclosed_html_tags?(element.statement)
+      end
+      assert_equal(0,failing_elements.size, failing_elements.map{|element| element.ref_id })
+    end
+
+    #######
+    private
+    #######
+
+    def has_unclosed_html_tags?(string)
+      [:i, :sup].each do |tag|
+        opens = string.match(/<#{tag}>/)
+        closes = string.match(/<\/#{tag}>/)
+        return false if opens.nil?
+        return true if closes.nil? or (opens.size == closes.size + 1)
+        raise "too many unclosed open <#{tag}> tags to deal with" if opens.size > closes.size + 1 # just in case this becomes an issue in the future so it can be identified immediately
+      end
+      return false
+    end
   end
 end
