@@ -1,4 +1,4 @@
-module CommonCore
+module CommonCoreParser
   class Element
 
     attr_accessor :data

@@ -3,7 +3,7 @@
 
 require 'test_helper'
 
-module CommonCore
+module CommonCoreParser
   class StandardTest < ActiveSupport::TestCase
 
     # ref_id
@@ -42,7 +42,7 @@ module CommonCore
 
     # to_s
     test "should return string representation of standard" do
-      assert_equal '<CommonCore::Standard ref_id: CA9EE2E34F384E95A5FA26769C5864B8, parent_ref_id: 4F4106218F834258BCDDB7EB39806880, code: CCSS.Math.Content.K.CC.A.1, statement: Count to 100 by ones and by tens., grades: K>', math_standard.to_s
+      assert_equal '<CommonCoreParser::Standard ref_id: CA9EE2E34F384E95A5FA26769C5864B8, parent_ref_id: 4F4106218F834258BCDDB7EB39806880, code: CCSS.Math.Content.K.CC.A.1, statement: Count to 100 by ones and by tens., grades: K>', math_standard.to_s
     end
 
 

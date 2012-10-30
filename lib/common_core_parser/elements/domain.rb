@@ -1,5 +1,5 @@
-module CommonCore
-  class Domain < CommonCore::Element
+module CommonCoreParser
+  class Domain < CommonCoreParser::Element
 
     def errors
       errors = []

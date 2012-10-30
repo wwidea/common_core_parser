@@ -3,7 +3,7 @@ require 'rake/testtask'
 require 'rdoc/task'
 require 'open-uri'
 require 'csv'
-require File.expand_path('../lib/common_core', __FILE__)
+require File.expand_path('../lib/common_core_parser', __FILE__)
 
 desc 'Default: run unit tests.'
 task :default => :test
@@ -23,8 +23,8 @@ end
 
 desc 'generate csv standards file'
 task :generate_csv_standards_file do
-  master = CommonCore::Master.instance
-  master.load_elements_from_paths(CommonCore::DATA_PATH+'/**/*.xml')
+  master = CommonCoreParser::Master.instance
+  master.load_elements_from_paths(CommonCoreParser::DATA_PATH+'/**/*.xml')
   CSV.open("standards.csv", "wb") do |csv|
     csv << ['RefID','SubjectGrade','Domain','Cluster','Number/Code','Grades','Text/Statement']
     master.standards.each do |ref_id,standard|

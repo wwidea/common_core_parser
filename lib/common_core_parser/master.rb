@@ -1,4 +1,4 @@
-module CommonCore
+module CommonCoreParser
   class Master
     include Singleton
 
@@ -58,7 +58,7 @@ module CommonCore
 
     def get_class_from_element(xml_element)
       hierarcy_level_description = xml_element.xpath('./StandardHierarchyLevel/description').first || xml_element.xpath('./StandardHierarchyLevel/Description').first
-      return "CommonCore::#{hierarcy_level_description.text}".gsub(/\s/,'').constantize
+      return "CommonCoreParser::#{hierarcy_level_description.text}".gsub(/\s/,'').constantize
     end
   end
 end

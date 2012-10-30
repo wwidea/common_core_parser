@@ -3,12 +3,12 @@
 
 require 'test_helper'
 
-module CommonCore
+module CommonCoreParser
   class DomainTest < ActiveSupport::TestCase
 
     # to_s
     test "should return string representation of domain" do
-      assert_equal '<CommonCore::Domain ref_id: 4246B738DA224018B6D20C12F9ED0073, parent_ref_id: C235350E091D437FBE2794CE93FBE949, code: Mathematics.1.G, statement: Geometry, grades: 01>', math_domain.to_s
+      assert_equal '<CommonCoreParser::Domain ref_id: 4246B738DA224018B6D20C12F9ED0073, parent_ref_id: C235350E091D437FBE2794CE93FBE949, code: Mathematics.1.G, statement: Geometry, grades: 01>', math_domain.to_s
     end
 
     # valid?

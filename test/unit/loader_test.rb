@@ -3,7 +3,7 @@
 
 require 'test_helper'
 
-module CommonCore
+module CommonCoreParser
   class LoaderTest < ActiveSupport::TestCase
 
     def setup
@@ -127,10 +127,10 @@ module CommonCore
         next if standard.parent_ref_id == 'INTENTIONALLYORPHANED'
         insanity_flag_raised = false
 
-        insanity_flag_raised = true if standard.children.any? { |ref_id,child| ! child.is_a?(CommonCore::Component) }
-        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.is_a?(CommonCore::Cluster)
-        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.is_a?(CommonCore::Domain)
-        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.parent.is_a?(CommonCore::SubjectGrade)
+        insanity_flag_raised = true if standard.children.any? { |ref_id,child| ! child.is_a?(Component) }
+        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.is_a?(Cluster)
+        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.is_a?(Domain)
+        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.parent.is_a?(SubjectGrade)
 
         insane_standards << standard if insanity_flag_raised
       end
@@ -144,9 +144,9 @@ module CommonCore
         next if standard.parent_ref_id == 'INTENTIONALLYORPHANED'
         insanity_flag_raised = false
 
-        insanity_flag_raised = true if standard.children.any? { |ref_id,child| ! child.is_a?(CommonCore::Component) }
-        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.is_a?(CommonCore::Domain)
-        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.is_a?(CommonCore::SubjectGrade)
+        insanity_flag_raised = true if standard.children.any? { |ref_id,child| ! child.is_a?(Component) }
+        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.is_a?(Domain)
+        insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.is_a?(SubjectGrade)
 
         insane_standards << standard if insanity_flag_raised
       end

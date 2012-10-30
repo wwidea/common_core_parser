@@ -1,5 +1,5 @@
-module CommonCore
-  class SubjectGrade < CommonCore::Element
+module CommonCoreParser
+  class Cluster < CommonCoreParser::Element
 
     def errors
       errors = []

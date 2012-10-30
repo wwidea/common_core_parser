@@ -1,5 +1,5 @@
-module CommonCore
-  class Standard < CommonCore::Element
+module CommonCoreParser
+  class Standard < CommonCoreParser::Element
 
     def errors
       errors = []
