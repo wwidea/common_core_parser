@@ -7,30 +7,53 @@ module CommonCoreParser
   class LoaderTest < ActiveSupport::TestCase
 
     def setup
-      Singleton.send(:__init__,Master)  #Force reinitialization
       @master = Master.instance
     end
 
-    # math_standards
-    test "should load standards from xml" do
-      @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/ELA-Literacy.xml')
-      assert_equal 967, @master.standards.keys.length
+    test "should load math standards from xml" do
+      @master.load_math
+      assert_equal 393, @master.standards.keys.length
       @master.standards.each do |key,standard|
         assert standard.is_a?(Standard), "#{standard} expected to be a Standard"
         assert standard.valid?, "#{standard.error_message} - #{standard}"
       end
     end
 
-    test "should load standard components from xml" do
-      @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/ELA-Literacy.xml')
-      assert_equal 569, @master.components.keys.length
+    test "should load ela standards from xml" do
+      @master.load_ela
+      assert_equal 574, @master.standards.keys.length
+      @master.standards.each do |key,standard|
+        assert standard.is_a?(Standard), "#{standard} expected to be a Standard"
+        assert standard.valid?, "#{standard.error_message} - #{standard}"
+      end
+    end
+
+    test 'should reinitialize when loading new data set' do
+      @master.load_ela
+      ela_count = @master.elements.size
+      @master.load_math
+      math_count = @master.elements.size
+      assert math_count < ela_count
+    end
+
+    test "should load math standard components from xml" do
+      @master.load_math
+      assert_equal 124, @master.components.keys.length
       @master.components.each do |key,component|
         assert component.is_a?(Component), "#{component} expected to be a Component"
         assert component.valid?, "#{component.error_message} - #{component}"
       end
     end
 
-    # math_domains
+    test "should load ela standard components from xml" do
+      @master.load_ela
+      assert_equal 445, @master.components.keys.length
+      @master.components.each do |key,component|
+        assert component.is_a?(Component), "#{component} expected to be a Component"
+        assert component.valid?, "#{component.error_message} - #{component}"
+      end
+    end
+
     test "should load a single math domain from xml" do
       @master.load_elements_from_paths(DATA_PATH+'/Mathematics/Grade1/Domain/Math_Grade1_G.xml')
       assert_equal 1, @master.domains.keys.length
@@ -40,7 +63,6 @@ module CommonCoreParser
       end
     end
 
-    # math_clusters
     test "should load a single math cluster from xml" do
       @master.load_elements_from_paths(DATA_PATH+'/Mathematics/Grade1/Domain/Clusters/Math_Grade1_G_1.xml')
       assert_equal 1, @master.clusters.keys.length
@@ -70,7 +92,7 @@ module CommonCoreParser
     end
 
     test "should load all xml files for math" do
-      @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/Mathematics/**/*.xml')
+      @master.load_math
       assert_equal 393, @master.standards.keys.length
       assert_equal 124, @master.components.keys.length
       assert_equal 15, @master.subject_grades.keys.length
@@ -91,7 +113,7 @@ module CommonCoreParser
     end
 
     test "should load all xml files for language arts" do
-      @master.load_elements_from_paths(DATA_PATH+'/ELA/**/*.xml')
+      @master.load_ela
       assert_equal 13, @master.subject_grades.keys.length
       assert_equal 74, @master.domains.keys.length
       assert_equal 1, @master.standard_types.keys.length
@@ -110,7 +132,7 @@ module CommonCoreParser
     end
 
     test "should load all xml files for math and reunite parents with children" do
-      @master.load_elements_from_paths(DATA_PATH+'/**/*.xml')
+      @master.load_math
       orphan_elements = []
       @master.elements.each do |key,element|
         next unless (element.parent_ref_id and element.parent.nil?)
@@ -121,7 +143,7 @@ module CommonCoreParser
     end
 
     test 'math standards should have a sane hierarchy' do
-      @master.load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/Mathematics/**/*.xml')
+      @master.load_math
       insane_standards = []
       @master.standards.each do |key,standard|
         next if standard.parent_ref_id == 'INTENTIONALLYORPHANED'
@@ -138,7 +160,7 @@ module CommonCoreParser
     end
 
     test 'languange arts standards should have sane hierarchy' do
-      @master.load_elements_from_paths(DATA_PATH+'/ELA-Literacy.xml',DATA_PATH+'/ELA/**/*.xml')
+      @master.load_ela
       insane_standards = []
       @master.standards.each do |key,standard|
         next if standard.parent_ref_id == 'INTENTIONALLYORPHANED'

@@ -14,7 +14,16 @@ module CommonCoreParser
       @standard_types = {}
     end
 
+    def load_math
+      load_elements_from_paths(DATA_PATH+'/Math.xml',DATA_PATH+'/Mathematics/**/*.xml')
+    end
+
+    def load_ela
+      load_elements_from_paths(DATA_PATH+'/ELA-Literacy.xml',DATA_PATH+'/ELA/**/*.xml')
+    end
+
     def load_elements_from_paths(*paths)
+      self.send(:initialize)
       paths.flatten.each do |path|
         Dir.glob(path).map do |filename|
           xml = Nokogiri::XML(File.open(filename))

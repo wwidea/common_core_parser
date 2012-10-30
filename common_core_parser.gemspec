@@ -16,10 +16,10 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "nokogiri", '1.5.6.rc2'
-  s.add_dependency "rake", '>= 0.9.2'
+  s.add_dependency 'nokogiri', '>= 1.5.5'
+  s.add_dependency 'rake', '>= 0.9.2'
 
-  s.add_development_dependency "rdoc", '>= 3.12'
+  s.add_development_dependency 'rdoc', '>= 3.12'
   s.add_development_dependency 'activesupport'
   s.add_development_dependency 'mocha'
 
