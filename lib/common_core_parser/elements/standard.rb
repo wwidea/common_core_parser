@@ -16,7 +16,7 @@ module CommonCoreParser
     end
 
     def cluster
-      @cluster ||= self.parent.is_a?(CommonCore::Cluster) ? self.parent : nil
+      @cluster ||= self.parent.is_a?(Cluster) ? self.parent : nil
     end
 
     def domain
