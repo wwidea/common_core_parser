@@ -35,6 +35,7 @@ module CommonCoreParser
       end
       correct_bad_data
       reunite_children_with_parents
+      return standards
     end
 
     def add_element(element)
