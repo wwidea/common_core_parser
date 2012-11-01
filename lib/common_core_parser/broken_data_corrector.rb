@@ -3,7 +3,7 @@ module CommonCoreParser
 
     class << self
       def run
-        Master.instance.elements.dup.each do |ref_id,element|
+        Master.instance.elements.each do |element|
           self.private_methods.select { |method_name| method_name.to_s.match(/^correct_/) }.each do |corrector_method|
             self.send(corrector_method,element)
           end

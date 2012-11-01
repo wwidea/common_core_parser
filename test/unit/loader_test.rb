@@ -12,8 +12,8 @@ module CommonCoreParser
 
     test "should load math standards from xml" do
       @master.load_math
-      assert_equal 393, @master.standards.keys.length
-      @master.standards.each do |key,standard|
+      assert_equal 393, @master.standards.size
+      @master.standards.each do |standard|
         assert standard.is_a?(Standard), "#{standard} expected to be a Standard"
         assert standard.valid?, "#{standard.error_message} - #{standard}"
       end
@@ -21,8 +21,8 @@ module CommonCoreParser
 
     test "should load ela standards from xml" do
       @master.load_ela
-      assert_equal 574, @master.standards.keys.length
-      @master.standards.each do |key,standard|
+      assert_equal 574, @master.standards.size
+      @master.standards.each do |standard|
         assert standard.is_a?(Standard), "#{standard} expected to be a Standard"
         assert standard.valid?, "#{standard.error_message} - #{standard}"
       end
@@ -38,8 +38,8 @@ module CommonCoreParser
 
     test "should load math standard components from xml" do
       @master.load_math
-      assert_equal 124, @master.components.keys.length
-      @master.components.each do |key,component|
+      assert_equal 124, @master.components.size
+      @master.components.each do |component|
         assert component.is_a?(Component), "#{component} expected to be a Component"
         assert component.valid?, "#{component.error_message} - #{component}"
       end
@@ -47,8 +47,8 @@ module CommonCoreParser
 
     test "should load ela standard components from xml" do
       @master.load_ela
-      assert_equal 445, @master.components.keys.length
-      @master.components.each do |key,component|
+      assert_equal 445, @master.components.size
+      @master.components.each do |component|
         assert component.is_a?(Component), "#{component} expected to be a Component"
         assert component.valid?, "#{component.error_message} - #{component}"
       end
@@ -56,8 +56,8 @@ module CommonCoreParser
 
     test "should load a single math domain from xml" do
       @master.load_elements_from_paths(DATA_PATH+'/Mathematics/Grade1/Domain/Math_Grade1_G.xml')
-      assert_equal 1, @master.domains.keys.length
-      @master.domains.each do |key,domain|
+      assert_equal 1, @master.domains.size
+      @master.domains.each do |domain|
         assert domain.is_a?(Domain), "#{domain} expected to be a Domain"
         assert domain.valid?, "#{domain} - #{domain.error_message}"
       end
@@ -65,8 +65,8 @@ module CommonCoreParser
 
     test "should load a single math cluster from xml" do
       @master.load_elements_from_paths(DATA_PATH+'/Mathematics/Grade1/Domain/Clusters/Math_Grade1_G_1.xml')
-      assert_equal 1, @master.clusters.keys.length
-      @master.clusters.each do |key,cluster|
+      assert_equal 1, @master.clusters.size
+      @master.clusters.each do |cluster|
         assert cluster.is_a?(Cluster), "#{cluster} expected to be a Cluster"
         assert cluster.valid?, "#{cluster} - #{cluster.error_message}"
       end
@@ -74,18 +74,18 @@ module CommonCoreParser
 
     test "should load all xml files for grade 1 math" do
       @master.load_elements_from_paths(DATA_PATH+'/Mathematics/Grade1/**/*.xml')
-      assert_equal 1, @master.subject_grades.keys.length
-      assert_equal 4, @master.domains.keys.length
-      assert_equal 11, @master.clusters.keys.length
-      @master.subject_grades.each do |key,subject_grade|
+      assert_equal 1, @master.subject_grades.size
+      assert_equal 4, @master.domains.size
+      assert_equal 11, @master.clusters.size
+      @master.subject_grades.each do |subject_grade|
         assert subject_grade.is_a?(SubjectGrade), "#{subject_grade} expected to be a SubjectGrade"
         assert subject_grade.valid?, "#{subject_grade} - #{subject_grade.error_message}"
       end
-      @master.domains.each do |key,domain|
+      @master.domains.each do |domain|
         assert domain.is_a?(Domain), "#{domain} expected to be a Domain"
         assert domain.valid?, "#{domain} - #{domain.error_message}"
       end
-      @master.clusters.each do |key,cluster|
+      @master.clusters.each do |cluster|
         assert cluster.is_a?(Cluster), "#{cluster} expected to be a Cluster"
         assert cluster.valid?, "#{cluster} - #{cluster.error_message}"
       end
@@ -93,20 +93,20 @@ module CommonCoreParser
 
     test "should load all xml files for math" do
       @master.load_math
-      assert_equal 393, @master.standards.keys.length
-      assert_equal 124, @master.components.keys.length
-      assert_equal 15, @master.subject_grades.keys.length
-      assert_equal 65, @master.domains.keys.length
-      assert_equal 148, @master.clusters.keys.length
-      @master.subject_grades.each do |key,subject_grade|
+      assert_equal 393, @master.standards.size
+      assert_equal 124, @master.components.size
+      assert_equal 15, @master.subject_grades.size
+      assert_equal 65, @master.domains.size
+      assert_equal 148, @master.clusters.size
+      @master.subject_grades.each do |subject_grade|
         assert subject_grade.is_a?(SubjectGrade), "#{subject_grade} expected to be a SubjectGrade"
         assert subject_grade.valid?, "#{subject_grade} - #{subject_grade.error_message}"
       end
-      @master.domains.each do |key,domain|
+      @master.domains.each do |domain|
         assert domain.is_a?(Domain), "#{domain} expected to be a Domain"
         assert domain.valid?, "#{domain} - #{domain.error_message}"
       end
-      @master.clusters.each do |key,cluster|
+      @master.clusters.each do |cluster|
         assert cluster.is_a?(Cluster), "#{cluster} expected to be a Cluster"
         assert cluster.valid?, "#{cluster} - #{cluster.error_message}"
       end
@@ -114,18 +114,18 @@ module CommonCoreParser
 
     test "should load all xml files for language arts" do
       @master.load_ela
-      assert_equal 13, @master.subject_grades.keys.length
-      assert_equal 74, @master.domains.keys.length
-      assert_equal 1, @master.standard_types.keys.length
-      @master.subject_grades.each do |key,subject_grade|
+      assert_equal 13, @master.subject_grades.size
+      assert_equal 74, @master.domains.size
+      assert_equal 1, @master.standard_types.size
+      @master.subject_grades.each do |subject_grade|
         assert subject_grade.is_a?(SubjectGrade), "#{subject_grade} expected to be a SubjectGrade"
         assert subject_grade.valid?, "#{subject_grade} - #{subject_grade.error_message}"
       end
-      @master.domains.each do |key,domain|
+      @master.domains.each do |domain|
         assert domain.is_a?(Domain), "#{domain} expected to be a Domain"
         assert domain.valid?, "#{domain} - #{domain.error_message}"
       end
-      @master.standard_types.each do |key,standard_type|
+      @master.standard_types.each do |standard_type|
         assert standard_type.is_a?(StandardType), "#{standard_type} expected to be a StandardType"
         assert standard_type.valid?,"#{standard_type} -#{standard_type.error_message}"
       end
@@ -134,7 +134,7 @@ module CommonCoreParser
     test "should load all xml files for math and reunite parents with children" do
       @master.load_math
       orphan_elements = []
-      @master.elements.each do |key,element|
+      @master.elements.each do |element|
         next unless (element.parent_ref_id and element.parent.nil?)
         next if element.parent_ref_id == 'INTENTIONALLYORPHANED'
         orphan_elements << element
@@ -145,11 +145,11 @@ module CommonCoreParser
     test 'math standards should have a sane hierarchy' do
       @master.load_math
       insane_standards = []
-      @master.standards.each do |key,standard|
+      @master.standards.each do |standard|
         next if standard.parent_ref_id == 'INTENTIONALLYORPHANED'
         insanity_flag_raised = false
 
-        insanity_flag_raised = true if standard.children.any? { |ref_id,child| ! child.is_a?(Component) }
+        insanity_flag_raised = true if standard.children.any? { |child| ! child.is_a?(Component) }
         insanity_flag_raised = true unless insanity_flag_raised or standard.parent.is_a?(Cluster)
         insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.is_a?(Domain)
         insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.parent.is_a?(SubjectGrade)
@@ -162,11 +162,11 @@ module CommonCoreParser
     test 'languange arts standards should have sane hierarchy' do
       @master.load_ela
       insane_standards = []
-      @master.standards.each do |key,standard|
+      @master.standards.each do |standard|
         next if standard.parent_ref_id == 'INTENTIONALLYORPHANED'
         insanity_flag_raised = false
 
-        insanity_flag_raised = true if standard.children.any? { |ref_id,child| ! child.is_a?(Component) }
+        insanity_flag_raised = true if standard.children.any? { |child| ! child.is_a?(Component) }
         insanity_flag_raised = true unless insanity_flag_raised or standard.parent.is_a?(Domain)
         insanity_flag_raised = true unless insanity_flag_raised or standard.parent.parent.is_a?(SubjectGrade)
 
@@ -178,7 +178,7 @@ module CommonCoreParser
     test 'elements should never have unclosed html tags or start with a closing html tag' do
       @master.load_elements_from_paths(DATA_PATH+'/**/*.xml')
       failing_elements = []
-      @master.elements.each do |key,element|
+      @master.elements.each do |element|
         failing_elements << element if element.statement.match(/^<\//)
         failing_elements << element if has_unclosed_html_tags?(element.statement)
       end

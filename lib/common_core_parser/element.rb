@@ -2,12 +2,12 @@ module CommonCoreParser
   class Element
 
     attr_accessor :data
-    attr_reader :children
+    attr_reader :children_hash
 
     def initialize(xmldoc)
       raise(ArgumentError, "Not a LearningStandardItem\n #{xmldoc}") unless xmldoc.name == 'LearningStandardItem'
       @data = xmldoc
-      @children = {}
+      @children_hash = {}
     end
 
     def to_s
@@ -19,7 +19,11 @@ module CommonCoreParser
     end
 
     def parent
-      @parent ||= Master.instance.elements[parent_ref_id]
+      @parent ||= Master.instance.elements_hash[parent_ref_id]
+    end
+
+    def children
+      children_hash.values
     end
 
     def parent_ref_id
@@ -39,7 +43,7 @@ module CommonCoreParser
     end
 
     def add_child(element)
-      children[element.ref_id] = element
+      @children_hash[element.ref_id] = element
     end
 
     def code
