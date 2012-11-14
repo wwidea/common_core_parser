@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.summary = "Parses common core standrds xml files and returns ruby objects."
   s.description = "The common core standards xml files and pdf docs are provided by the Common Core State Standards Initiative."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  s.files = `git ls-files`.split("\n")
+  s.test_files = `git ls-files -- test/*`.split("\n")
 
   s.add_dependency 'nokogiri', '>= 1.5.5'
   s.add_dependency 'rake', '>= 0.9.2'
