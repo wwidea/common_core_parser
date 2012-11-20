@@ -1,6 +1,6 @@
 Common Core Parser
 ==================
-
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/wwidea/common_core_parser)
 Parses common core standrds xml files and returns ruby objects.
 
 The common core standards xml files and pdf docs are provided by the [Common Core State Standards Initiative](http://www.corestandards.org/).  Commercial license information is available here http://www.corestandards.org/commercial-license.
