@@ -131,6 +131,18 @@ module CommonCoreParser
       end
     end
 
+    test 'should fix wrong code on literacy domains' do
+      @master.load_ela
+
+      @master.domains.select {|domain| domain.statement == 'Reading Standards for Literacy in Science and Technical Subjects 6-12' }.each do |rst_domain|
+        assert_match(/\.RST$/,rst_domain.code)
+      end
+
+      @master.domains.select {|domain| domain.statement.match(/^Writing Standards for Literacy/) }.each do |whst_domain|
+        assert_match(/\.WHST$/,whst_domain.code)
+      end
+    end
+
     test "should load all xml files for math and reunite parents with children" do
       @master.load_math
       orphan_elements = []

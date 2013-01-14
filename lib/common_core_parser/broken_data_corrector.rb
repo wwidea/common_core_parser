@@ -133,7 +133,16 @@ module CommonCoreParser
         end
       end
 
-
+      def correct_bad_codes_in_literacy_domains(element)
+        if element.is_a?(Domain)
+          if element.statement.match(/^Reading Standards for Literacy in Science/)
+            element.instance_variable_set(:@code,element.code.gsub(/^(ELA\.CC\.[K\d\-]+)\.RF$/,"#{$1}.RST"))
+          end
+          if element.statement.match(/^Writing Standards for Literacy/)
+            element.instance_variable_set(:@code,element.code.gsub(/^(ELA\.CC\.[K\d\-]+)\.RF$/,"#{$1}.WHST"))
+          end
+        end
+      end
 
 
 

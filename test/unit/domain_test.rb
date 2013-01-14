@@ -23,11 +23,13 @@ module CommonCoreParser
       assert_equal false, saved_math_domain.valid?
     end
 
-    test 'should return repdecessor ref id' do
+    test 'should return predecessor ref id' do
       assert_equal('C235350E091D437FBE2794CE93FBE949',math_domain.parent_ref_id)
     end
 
-  private
+    #######
+    private
+    #######
 
     def math_domain
       Domain.new(math_domain_xml)
