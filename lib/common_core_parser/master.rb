@@ -7,7 +7,7 @@ module CommonCoreParser
 
     def initialize
       ELEMENT_NAMES.each do |element_name|
-        instance_variable_set("@#{element_name}_hash",{})
+        instance_variable_set("@#{element_name}_hash",HashWithIndifferentAccess.new)
       end
     end
 

@@ -200,6 +200,11 @@ module CommonCoreParser
     test 'should correct codes with missing data at the end' do
       @master.load_ela
       assert_equal('CCSS.ELA-Literacy.L.3.1',@master.elements_hash["Standard:DUPLICATEDREF_ID:F053D3437D1E4338A2C18B25DACBED85"].code)
+      @master.load_math
+      assert_equal('CCSS.Math.Content.2.NBT.A.1',@master.elements_hash["3B25AF48C22D4668A6085998F847B56E"].code)
+      assert_equal('CCSS.Math.Content.5.NBT.B.5',@master.elements_hash["91516855132E48E19AA8EC19D5EF6739"].code)
+      assert_equal('CCSS.Math.Content.5.NBT.B.6',@master.elements_hash["867A71BD1E35497A847049DD8A3EFE29"].code)
+      assert_equal('CCSS.Math.Content.5.NBT.B.7',@master.elements_hash["7E8ADBEC52174A8EB1E0407D65FDAEAB"].code)
     end
 
     #######
