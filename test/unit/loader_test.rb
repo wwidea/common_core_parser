@@ -213,6 +213,10 @@ module CommonCoreParser
       assert_match(/end of grade 11.+end of grade 12/,@master.elements_hash["5E76C90156944cd6A1DF0887BEA27672"].statement)
     end
 
+    test 'should add supserscript tags to sample formula that is missing them' do
+      assert_match(/<sup>/,@master.elements_hash["E8C42265F5F341ea9C0284AA7BDC65AF"].statement)
+    end
+
     #######
     private
     #######
