@@ -197,6 +197,11 @@ module CommonCoreParser
       assert_equal(0,failing_elements.size, failing_elements.map{|element| element.ref_id })
     end
 
+    test 'should correct codes with missing data at the end' do
+      @master.load_ela
+      assert_equal('CCSS.ELA-Literacy.L.3.1',@master.elements_hash["Standard:DUPLICATEDREF_ID:F053D3437D1E4338A2C18B25DACBED85"].code)
+    end
+
     #######
     private
     #######

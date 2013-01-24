@@ -3,9 +3,19 @@ module CommonCoreParser
 
     class << self
       def run
+        load_corrections_from_yaml
         Master.instance.elements.each do |element|
           self.private_methods.select { |method_name| method_name.to_s.match(/^correct_/) }.each do |corrector_method|
             self.send(corrector_method,element)
+          end
+        end
+      end
+
+      def load_corrections_from_yaml
+        corrections_hash.keys.each do |refid|
+          element = Master.instance.elements_hash[refid]
+          corrections_hash[refid].keys.each do |attribute|
+            element.instance_variable_set("@#{attribute}",corrections_hash[refid][attribute])
           end
         end
       end
@@ -144,11 +154,11 @@ module CommonCoreParser
         end
       end
 
-
-
-
-
       ######################################################################################
+
+      def corrections_hash
+        @corrections_hash ||= YAML.load_file(File.expand_path('../../../data/corrections.yml', __FILE__))
+      end
 
       def strip_stray_close_tags(element,tag)
         if starts_with_close?(element,tag)
