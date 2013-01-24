@@ -207,6 +207,12 @@ module CommonCoreParser
       assert_equal('CCSS.Math.Content.5.NBT.B.7',@master.elements_hash["7E8ADBEC52174A8EB1E0407D65FDAEAB"].code)
     end
 
+    test 'should fill in missing statement data on literacy standards' do
+      @master.load_ela
+      assert_match(/end of grade 9.+end of grade 10/,@master.elements_hash["9E5B5BE5D4E144e28A396066AF456486"].statement)
+      assert_match(/end of grade 11.+end of grade 12/,@master.elements_hash["5E76C90156944cd6A1DF0887BEA27672"].statement)
+    end
+
     #######
     private
     #######
