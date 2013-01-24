@@ -214,7 +214,14 @@ module CommonCoreParser
     end
 
     test 'should add supserscript tags to sample formula that is missing them' do
+      @master.load_math
       assert_match(/<sup>/,@master.elements_hash["E8C42265F5F341ea9C0284AA7BDC65AF"].statement)
+    end
+
+    test 'should reset escaped html tags in statments' do
+      @master.load_math
+      assert_match(/<i>/,@master.elements_hash["70C12332BEED45098AA0A0BBCD977376"].statement)
+      assert_match(/<\/i>/,@master.elements_hash["70C12332BEED45098AA0A0BBCD977376"].statement)
     end
 
     #######
