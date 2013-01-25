@@ -205,6 +205,7 @@ module CommonCoreParser
       assert_equal('CCSS.Math.Content.5.NBT.B.5',@master.elements_hash["91516855132E48E19AA8EC19D5EF6739"].code)
       assert_equal('CCSS.Math.Content.5.NBT.B.6',@master.elements_hash["867A71BD1E35497A847049DD8A3EFE29"].code)
       assert_equal('CCSS.Math.Content.5.NBT.B.7',@master.elements_hash["7E8ADBEC52174A8EB1E0407D65FDAEAB"].code)
+      assert_equal('CCSS.Math.Content.HSN-VM.C.9',@master.elements_hash["DDF504ABEDC044A3AF6404D0D1C99CAA"].code)
     end
 
     test 'should fill in missing statement data on literacy standards' do
